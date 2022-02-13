@@ -206,7 +206,7 @@
   height: 36px;
   width: 900px;
   background-color: hsl(32, 96%, 50%);
-  margin-bottom: 0 %;
+  /* margin-bottom: 0 %; */
 }
 
 .orderSummary p {
