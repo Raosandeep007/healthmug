@@ -1,0 +1,1088 @@
+/*  THIS IS PRODUCT MAP , SORT PRODUCT, FILTER PRODUCT AND SEARCH CSS
+MADE BY "SANDEEP YADAV" */
+/* ====================================================================================================== */
+#productpagepart {
+  margin-top: 10%;
+}
+* {
+  font-family: Roboto, sans-serif;
+}
+#main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  margin-top: 12px;
+}
+#card > img {
+  margin-left: 20%;
+  width: 50%;
+  vertical-align: middle;
+}
+#card {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 17.1429px;
+  vertical-align: top;
+  padding: 10px;
+  font-weight: 400;
+  text-decoration: none solid rgb(80, 80, 80);
+}
+#title {
+  font-size: 13px;
+  color: rgb(80, 80, 80);
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration: none solid rgb(80, 80, 80);
+  text-indent: 0px;
+}
+#tagline {
+  color: rgb(136, 136, 136);
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: baseline;
+  font-weight: 400;
+  text-decoration: none solid rgb(136, 136, 136);
+}
+#price {
+  color: rgb(183, 183, 183);
+  font-size: 15px;
+  line-height: 16px;
+  vertical-align: top;
+  margin: 0px 10px 0px 0px;
+  font-weight: 400;
+  text-decoration: line-through solid rgb(183, 183, 183);
+}
+#offprice {
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+  line-height: 16px;
+  vertical-align: top;
+  margin: 0px 10px 0px 0px;
+  font-weight: 400;
+  text-decoration: none solid rgb(80, 80, 80);
+}
+#discount {
+  color: rgb(255, 255, 255);
+  background-color: rgb(81, 201, 166);
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none solid rgb(255, 255, 255);
+}
+#productsort {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  display: grid;
+  grid-template-columns: 50px 110px 110px 50px 60px 80px 80px;
+  column-gap: 10px;
+  font-size: 12px;
+  line-height: 17.1429px;
+  padding: 8px 10px;
+  font-weight: 400;
+  text-decoration: none solid rgb(81, 201, 166);
+  text-align: start;
+}
+#productsort > button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+#productsort > button:hover {
+  border: none;
+  color: rgb(81, 201, 166);
+}
+#itemcount {
+  border-top: 1px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: rgb(208, 208, 208);
+  height: 40px;
+  margin-top: 5px;
+}
+#itemcount > #heading {
+  font-size: 30px;
+  color: rgb(80, 80, 80);
+}
+#itemcount > #items {
+  color: rgb(183, 183, 183);
+  text-decoration: none solid rgb(183, 183, 183);
+  font-size: 26px;
+}
+#itemcount > #searchspan {
+  float: right;
+  height: 30px;
+  margin-top: -10px;
+}
+#itemcount > #searchspan > #search {
+  margin-top: 1px;
+  height: 20px;
+}
+#itemcount > #searchspan > #sbtn {
+  margin-left: 0.4px;
+  margin-top: 17px;
+  height: 26px;
+  background-color: rgb(81, 201, 166);
+  border: 2px;
+  border-radius: 2px;
+  width: 30px;
+  color: white;
+}
+#itemcount > #sbtn:hover {
+  background-color: rgb(55, 176, 141);
+}
+#itemcount > #sbtn {
+  background-color: rgb(55, 176, 141);
+}
+#imghead {
+  display: grid;
+  grid-template-columns: 33% 33% 32%;
+  column-gap: 1%;
+}
+#imghead > img {
+  height: 67px;
+  width: 100%;
+}
+#page {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+body {
+  background-color: rgb(233, 233, 233);
+}
+#productdiv {
+  background-color: white;
+}
+#fildiv {
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 8px;
+}
+#filterby {
+  font-size: 18px;
+  text-decoration: none solid rgb(80, 80, 80);
+  padding-left: 5px;
+  line-height: 0px;
+  color: rgb(80, 80, 80);
+}
+#filterprice > h3,
+#brand > h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100;
+}
+#filterprice,
+#brand,
+#NandS {
+  padding-left: 10px;
+}
+#checkbox,
+#brandsearch,
+#NandS > .protype {
+  line-height: 30px;
+  margin: 0px 0px 0px 5px;
+  font-size: 12px;
+  color: rgb(80, 80, 80);
+}
+#NandS > .protype > button {
+  line-height: 23px;
+  padding-left: 20px;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+}
+#brandsearch > input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+/* ======================================================================================================================================================================= */
+/* FOOTER CSS MADE BY DINESH */
+div {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+/* stickers svg */
+.services {
+  display: flex;
+  background-color: white;
+}
+.services > div {
+  height: 150px;
+  flex-basis: 50%;
+  margin: 2%;
+}
+.services img {
+  width: 20%;
+  margin-left: 39%;
+  margin-top: 2%;
+}
+.services h4 {
+  text-align: center;
+}
+.services p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 0cm;
+  color: gray;
+}
+
+.services a {
+  color: black;
+  text-decoration: none;
+}
+
+.services a:hover {
+  color: teal;
+  text-decoration: underline;
+}
+
+/* footer coloumns policies  */
+
+.maxContainerFooter {
+  width: 100%;
+  justify-content: center;
+  background-color: #0b7670;
+}
+
+.footerColoumn i {
+  width: 20%;
+  font-size: 14px;
+}
+.footerColoumn span {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(133, 224, 174);
+  line-height: 40px;
+}
+
+.footerColoumn span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footerMainContainer {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 2%;
+  margin: auto;
+  /* margin-left: 9%; */
+  margin-left: 2%;
+}
+.footerColoumn h4 {
+  font-size: 16px;
+  font-weight: 400;
+  /*margin-bottom: 20px;*/
+  line-height: 25px;
+  color: white;
+}
+.footerColoumn p {
+  color: #595959;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgb(133, 224, 174);
+}
+.footerColoumn p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footerColoumn img {
+  width: 90%;
+  cursor: pointer;
+}
+
+.lastLine {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+
+  background-color: #0b7670;
+}
+.lastLine img {
+  width: 28%;
+  margin-left: 370%;
+  margin-top: 1%;
+}
+
+.textBox {
+  margin-left: 29%;
+  line-height: 0%;
+}
+.textBox p {
+  font-size: 12px;
+  color: white;
+}
+#boldText {
+  font-size: 16px;
+  color: rgb(175, 221, 207);
+}
+
+/* Actual Footer starts from here*/
+
+.prodTypes {
+  width: 100%;
+  height: 773px;
+  background-color: rgb(81, 201, 166);
+}
+
+.linkContainer {
+  padding: 1%;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.linkContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkContainer span > a,
+#aboutSection {
+  color: rgb(204, 248, 235);
+  font-size: 13px;
+}
+.linkContainer a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#typeName {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+#about {
+  font-size: 26px;
+}
+
+/*copyright*/
+
+.copyRight p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #016347;
+  margin-bottom: 10px;
+}
+
+.copyRight h3 {
+  text-align: center;
+}
+
+.copyRight p:nth-child(2) {
+  font-weight: bold;
+}
+.copyRight p:nth-child(3) {
+  font-weight: 700;
+}
+
+.footerMainContainer > div {
+  width: 20%;
+  padding: auto;
+}
+
+/* ==================================================================================================================================================================== */
+/* THIS IS NAV BAR CSS MADE BY "ADITYA" */
+body {
+  background-color: rgb(244, 244, 244);
+}
+.dropdown_button > a {
+  text-decoration: none;
+  color: white;
+}
+/* this is nav head made by adity */
+/* page header starts here */
+
+#searchnav button {
+  width: 14%;
+  padding: 10px;
+  background: #51c9a6;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #ededed;
+  border-left: none;
+}
+
+#search_input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #ededed;
+  float: left;
+  width: 80%;
+}
+
+.side_icon button {
+  width: 5%;
+  padding: 10px;
+  color: #898989;
+  font-size: 25px;
+  border: none;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 0;
+}
+
+#searchnav {
+  width: 30%;
+}
+
+.side_icon {
+  font-size: 12px;
+}
+
+.navigation img {
+  height: 50px;
+  width: 25%;
+}
+
+.side_icon p {
+  margin-top: 0%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+nav.scrolled {
+  background: white;
+}
+
+#navigate {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 75px;
+}
+
+.dropdown_button {
+  background-color: #51c9a6;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: fixed;
+  background-color: white;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 50;
+  width: 80%;
+  left: 200px;
+  top: auto;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.dropdown_content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown_content {
+  display: flex;
+}
+
+.dropdown:hover .dropdown_button,
+.dropdown:hover .dropdown_button > a {
+  background-color: white;
+  color: black;
+}
+
+.navigation_bottom {
+  background-color: #51c9a6;
+  justify-content: center;
+  gap: 1%;
+  display: flex;
+  z-index: 7;
+  margin-top: 0;
+}
+
+.dropdown_box1,
+.dropdown_box2 {
+  text-align: left;
+  min-width: min-content;
+  max-width: max-content;
+}
+
+.dropdown_box1 a,
+.dropdown_box2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.dropdown_box3 {
+  display: inline-block;
+  vertical-align: top;
+  height: 40%;
+  justify-items: right;
+}
+
+.dropdown_box3 > img {
+  height: fit-content;
+  width: fit-content;
+  justify-content: space-around;
+}
+
+.dropdown_box1 > h3 {
+  color: #51c9a6;
+  text-decoration: under;
+}
+
+#shopping {
+  width: 70%;
+  height: 80%;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  left: 250px;
+  top: 50px;
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  overflow: scroll;
+  padding-right: 5px;
+  z-index: 75;
+}
+
+#shopping_cart td {
+  min-width: 185px;
+}
+
+#add_to_cart {
+  text-align: center;
+  padding-top: 3%;
+}
+
+#shopping h2 {
+  font-size: 20px;
+}
+
+.bottom_shopping_cart_button {
+  display: none;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+#shopping_cart td {
+  border-top: 1px solid #c9c4bd;
+}
+
+#shopping_cart > thead,
+h2 > span {
+  color: black;
+}
+
+.cart_button_color {
+  background-color: #51c9a6;
+  color: white;
+}
+
+.add_some_stuff {
+  color: #51c9a6;
+}
+
+.bottom_shoping_cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cart_total_table {
+  display: none;
+  flex-direction: column;
+}
+
+#add_more,
+#shopping_cart > thead {
+  color: #c9c4bd;
+}
+
+#grand_total_cart td {
+  border-top: 1px solid #c9c4bd;
+}
+
+#blur_background {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 70;
+  cursor: pointer;
+}
+
+#user_dropdown {
+  opacity: 0.9;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  display: none;
+  z-index: 50;
+  text-align: left;
+  margin-top: 0%;
+}
+
+#Login_Logout {
+  background-color: #51c9a6;
+  color: white;
+  width: 100%;
+  font-size: small;
+}
+
+#user_dropdown > div {
+  text-align: center;
+  border-top: 1px solid white;
+}
+
+#user:hover {
+  background-color: black;
+  width: 40px;
+  color: white;
+}
+
+#user:hover p {
+  background-color: black;
+  color: white;
+}
+
+#user:hover div {
+  display: block;
+}
+
+#user_dropdown h4:hover {
+  text-decoration: underline;
+}
+
+#popup_main {
+  display: none;
+  gap: 50px;
+  margin-left: 5%;
+  margin-top: 160px;
+  /* background-color: white; */
+}
+
+#image_prod {
+  width: 25%;
+  height: 50%;
+}
+
+#image_prod > img {
+  width: 100%;
+  height: fit-content;
+}
+
+#advertise > img {
+  width: 100%;
+}
+
+#prod_details {
+  width: 45%;
+  /* margin-top: 200px; */
+  text-align: left;
+  background-color: white;
+  padding: 2%;
+  height: fit-content;
+}
+
+#advertise {
+  width: 15%;
+  text-align: center;
+}
+
+#advertise > table {
+  color: #7a7a7a;
+  width: max-content;
+  margin: auto;
+  line-height: 0ex;
+  margin-bottom: 20px;
+}
+
+#real_price {
+  text-decoration: line-through;
+}
+
+#prod_details > button {
+  width: 40%;
+  height: 50px;
+  margin-right: 5px;
+  color: grey;
+}
+/* ====================================================================================================================== */
+/* THIS IS SING IN  AND SING UP CSS */
+/* MADE BY ADITYA */
+#sign_up_nav {
+  margin: 8px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+/* full width input fields */
+#sign_up_nav input[type=text],
+#sign_up_nav input[type=password] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Set a style for the button */
+#sign_up_nav button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 28px;
+  margin: 8px 20px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  font-size: 20px;
+}
+
+#sign_up_nav button:hover {
+  opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+#sign_up_nav .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+#sign_up_nav .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* The modal (background) */
+#sign_up_nav .modal {
+  display: none;
+  position: fixed;
+  z-index: 60;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content Box */
+#sign_up_nav .modal-content {
+  background-color: #fefefe;
+  margin: 4% auto 15% auto;
+  border: 1px solid grey;
+  width: 40%;
+  padding-bottom: 30px;
+}
+
+/* The CLose button */
+#sign_up_nav .close {
+  position: absolute;
+  right: 27%;
+  top: 6%;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#sign_up_nav .close:hover,
+#sign_up_nav .close:focus {
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+#sign_up_nav .animate {
+  animation: zoom 0.6s;
+}
+
+@keyframes zoom {
+  from {
+      transform: scale(0)
+  }
+
+  to {
+      transform: scale(1)
+  }
+
+  ;
+}
+
+#sign_up_nav #maindiv #topcontentbox {
+  display: flex;
+  border: 1px solid red;
+  background-color: rgb(81, 201, 166);
+  /* width: 100%; */
+  /* height:30%; */
+}
+
+#sign_up_nav .content {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+
+  color: white;
+  margin-left: 7px;
+}
+
+#sign_up_nav .content h2 {
+  font-family: sans-serif;
+  line-height: 37.1429px;
+  margin: 10px 0px 0px;
+  font-weight: 400;
+  font-size: 26px;
+
+}
+
+#sign_up_nav .contentboximg {
+  width: 80%;
+  height: 100%;
+  margin-left: 40px;
+}
+
+/*input value part*/
+#sign_up_nav #inputbox input {
+  border: none;
+  border: 1px solid rgb(85, 85, 85);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#sign_up_nav #inputbox input:focus {
+  outline: none;
+  box-shadow: 0px 10px 10px -8px #51c9a6;
+}
+
+/*Back to login page anchor*/
+#sign_up_nav .backtologin a {
+  font-size: 17px;
+  cursor: pointer;
+  color: #51C9A6;
+  position: absolute;
+  right: 30%;
+}
+
+#sign_up_nav #modal-wrapper1 {
+  display: none;
+  z-index: 60;
+}
+
+#sign_in_nav {
+  margin: 8px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+/* full width input fields */
+#sign_in_nav input[type=text],
+#sign_in_nav input[type=password] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Set a style for the button */
+#sign_in_nav button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 28px;
+  margin: 8px 20px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  font-size: 20px;
+}
+
+#sign_in_nav button:hover {
+  opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+#sign_in_nav .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+#sign_in_nav .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* The modal (background) */
+#sign_in_nav .modal {
+  display: none;
+  position: fixed;
+  z-index: 60;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content Box */
+#sign_in_nav .modal-content {
+  background-color: #fefefe;
+  margin: 4% auto 15% auto;
+  border: 1px solid grey;
+  width: 40%;
+  padding-bottom: 30px;
+}
+
+/* The CLose button */
+#sign_in_nav .close {
+  position: absolute;
+  right: 27%;
+  top: 8%;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#sign_in_nav .close:hover,
+#sign_in_nav .close:focus {
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+#sign_in_nav .animate {
+  animation: zoom 0.6s;
+}
+
+@keyframes zoom {
+  from {
+      transform: scale(0)
+  }
+
+  to {
+      transform: scale(1)
+  }
+
+  ;
+}
+
+/* top of signup page*/
+#sign_in_nav .hoversigntext {
+  width: 70%;
+}
+
+#sign_in_nav .hoversignupimg {
+  width: 30%;
+}
+
+#sign_in_nav .hoversignupimg img {
+  width: 110px;
+  float: right;
+}
+
+#sign_in_nav #hoversignup1 {
+  color: #ffffff;
+  background-color: #51c9a6;
+}
+
+#sign_in_nav #hoversignup1 {
+  display: flex;
+}
+
+#sign_in_nav #hoversignup1 p {
+  font-size: 13px;
+}
+
+/* signup page body*/
+#sign_in_nav #hoversignup2 {
+  margin-top: 7%;
+}
+
+#sign_in_nav #hoversignup2 input {
+  border: 1px solid rgb(85, 85, 85);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#sign_in_nav #hoversignup2 input:focus {
+  outline: none;
+  box-shadow: 0px 10px 10px -8px #51c9a6;
+}
+
+#sign_in_nav #hoversignupbtn {
+  background-color: #ec971f;
+  color: white;
+  margin-top: 40px;
+  font-size: 17px;
+}
+
+/*signup bottom*/
+#sign_in_nav #signupterms {
+  color: rgb(129, 129, 129);
+  margin-left: 20%;
+}
+
+#sign_in_nav .signupcond {
+  color: #51c9a6;
+}
+
+#sign_in_nav .signupcond,
+#signupterms {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+#sign_in_nav modal-wrapper {
+  display: block;
+}
+
+#sign_in_nav #login_password {
+  display: none;
+}

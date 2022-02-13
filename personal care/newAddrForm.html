@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Healthmug</title>
+    <link rel="shortcut icon" href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-192.png">
+    <link rel="stylesheet" href="newAddrForm.css" />
+    <script
+      src="https://kit.fontawesome.com/3e95405894.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <div class="checkOutNavBar">
+      <div class="checkOutNavBarItems">
+        <div class="navBarLeft">
+          <div class="healthMugLogoCP">
+            <a href="https://www.healthmug.com/">
+              <img
+                id="logoCP"
+                src="https://static.oxinis.com/healthmug/image/healthmug/healthmug-logo-bright.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="needHelp"> Help ? &#x1F4DE 9876543210 </div>
+        </div>
+
+        <div class="navBarRight">
+          <div class="rightInner">
+            <div class="innerBlockRight">
+              <div class="fafe">
+                <i class="fas fa-lock"></i>
+              </div>
+              <div class="fafeText">
+                <span>SECURE PAYMENTS</span>
+              </div>
+            </div>
+            <div class="innerBlockRight">
+              <div class="fafe">
+                <i class="fas fa-sync"></i>
+              </div>
+              <div class="fafeText">
+                <span
+                  >EASY <br />
+                  RETURNS</span
+                >
+              </div>
+            </div>
+            <div class="innerBlockRight">
+              <div class="fafe">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="fafeText">
+                <span
+                  >GENUINE <br />
+                  PRODUCTS</span
+                >
+              </div>
+            </div>
+            <div class="innerBlockRight">
+              <div class="fafe">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="fafeText">
+                <span
+                  >100% BUYER <br />
+                  PROTECTION</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!--End Of NavBar-->   
+ <!-- form section -->
+ <div class="formCP">
+    <div class="mailSectionParent"> 
+    <div class = "mailSection">
+        <div class="firstCP">
+            <p>1 <span>&#128504;</span></p>
+        </div>
+        <div class="emailIdCP">
+            <span>Email ID</span>
+        </div>
+        <div class="mailValue">
+            <span>borudedinesh2@gmail.com</span>
+        </div>
+        <div class="changeMail">
+          <!-- linked to the changeMail page  -->
+          <a href="changeMail.html">
+         <button>Change Mail</button> </a>
+        </div>
+    </div>
+    </div>
+
+    <div class = "delvAddr">
+        <p>2. Delivery Address</p>            
+    </div>
+    <div class="newAddrForm">
+        <div class = "formContainer">
+            <form action="">
+                <div class="labelCP"><label for="fName">Full Name
+                <span id="impStar">*</span></label>
+                </div>
+                <div class="inputCP"><input type="text" id="fName"></div> 
+                <div class="labelCP"><label for="state">State <span id="impStar">*</span></label> </div>
+                    <select name="state" id="state">
+                        <div class="inputCP">
+                            <option value="sState">--Select State--</option>
+                            <option value="mh">Maharashtra</option>
+                            <option value="up">Uttarpradesh</option>
+                            <option value="mp">Madhyapradesh</option>
+                            <option value="bh">Bihar</option>
+                            <option value="De">Delhi</option>
+                        </div>    
+                    </select>
+                <div class="labelCP"><label for="town">Town<span id="impStar">*</span></label></div>
+                <div class="inputCP"><input type="text" id="town"></div>
+                <div class="labelCP"><label for="town">Flat/ Room no <span id="impStar">*</span></label></div>
+                <div class="inputCP"><input type="text" id="town"></div>
+                <div class="labelCP"><label for="addr">Address<span id="impStar">*</span></label> </div>
+                <div class="inputCP"><textarea name="" id="" cols="24" rows="1"></textarea></div>
+                <div class="labelCP"><label for="landmk">Landmark</label></div>
+                <div class="inputCP"><input type="text" id="landmk"></div>
+                <div class="labelCP"><label for="pin">Pin<span id="impStar">*</span></label></div>
+                <div class="inputCP"><input type="number" id="pin"> </div>
+                <div class="labelCP"><label for="mobile">Mobile<span id="impStar">*</span></label></div>
+                <div class="inputCP"><input type="number" id="mobile"> </div>
+                <div class="labelCP"><label for="altMob">Alternate Mobile</label></div>
+                <div class="inputCP"><input type="number" id="altMob"> </div>
+                <div class="labelCP"><label for="addrType">Address Type<span id="impStar">*</span></label></div>
+                <select name="" id="">
+                  <option value="selectAddrType">---- Select Address Type ----</option>
+                  <option value="home">Home</option>
+                  <option value="office">Office</option>
+                </select>
+
+                <br>
+                <br>
+                <br>
+                <div><input id="saveButton" type="button" name="saveData" value="Save and Continue"></div>
+            </form>    
+        </div>
+        <div class= "orderSum">
+          <div>
+            <!-- this should be linked to the order summary page or cart page  -->
+          <p>3. Order Summary</p>
+          </div>
+      </div>
+      <div class= "orderSum">
+          
+          <p>
+            <!-- linked to the payment page  -->
+            <a href="payment.html" target="_blank">
+            4. Select Payment Method </a>
+          </p>
+          
+      </div>
+      </div>
+    </div>
+</div>
+  <div class="copyRight" >
+    <p>Copyright @2021  Healthmug.com</p>
+  </div>
+</body>
+</html>
+   

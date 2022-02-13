@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <style>
+        #maindiv {
+            width: 25%;
+            margin: auto;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 10%;
+        }
+
+        /* top part of payment*/
+        #topDiv{
+            display: flex;
+            background-color:rgb(243, 114, 84);
+            color: white;
+            text-align: center;
+        }
+
+        #topDiv img{
+           width:  80%;
+           background-color: white;
+           border-radius: 4%;
+           margin-top: 15%;
+        }
+        
+        #topDiv div:nth-of-type(2) {flex-grow: 2;}
+        
+        .Healthmugname{
+            font-size: 20px;
+        }
+
+        .secure{
+            font-size: 18px;
+            color: rgb(238, 238, 238);
+        }
+
+        .price{
+            font-size: 25px;
+        }
+
+        #selectlang, #selectlang select{
+            width: 100%;
+            background: #df684d; 
+            color: white; 
+            border: none;      
+        }
+       /* payment page body*/
+       #paymenttype{
+           color: rgb(138, 138, 138);
+           background-color: rgb(255, 235, 235);
+       }
+
+       .textalign{
+           margin-left: 5%;
+       }
+
+       .cardtitle{
+        color: #373737;
+       }
+
+       input{
+           display: inline-block;
+           width: 75%;
+           margin-left: 6%;
+           border: 1px solid rgb(165, 165, 165);
+           border-top: none;
+           border-left: none;
+           border-right: none;
+       }
+       
+       input:focus{
+        outline: none;
+        border-bottom: 1px solid #df684d; 
+       }
+
+       #month,#yesr{
+           border: none;
+       }
+
+       #submit{
+           width: 100%;
+           margin: 0%;
+           background-color: rgb(243, 114, 84);
+           color: white;
+           height: 50px;
+       }
+       /* .payclose{
+           font-size: 40px;
+           color: rgb(247, 108, 108);
+           margin-top :-28%;
+           margin-left: 63%; 
+           font-weight:bolder;
+           cursor: pointer;
+           position: fixed;
+       } */
+
+
+    </style>
+</head>
+
+<body>
+    <div id="maindiv">
+        <div id="topDiv">
+            <div class="imgdiv"><img src="https://static.oxinis.com/healthmug/image/healthmug/healthmug-heart.png" alt=""></div>
+            <div class="paymenttop">
+                <div class="Healthmugname">
+                    Health Mug
+                </div>
+                <div class="secure">
+                    100% Secure & Safe
+                </div>
+                <div class="price">
+                    ₹ 224
+                </div>
+            </div>
+        </div>
+        <div id="selectlang"><select name="" id="">
+            <option value="">English</option>
+            <option value="">Hindi</option>
+            <option value="">Tamil</option>
+            <option value="">Kannada</option>
+            <option value="">Telugu</option>
+        </select></div>
+       <div  id="paymenttype"><div class="textalign">Card Details</div></div>
+        <div>
+        </div>
+        <form>
+            <label class="textalign">Name on Card</label>
+            <input id="name" type="text">
+            <br>
+            <br>
+            <label class="textalign">Exp</label>
+            <select id="month">
+                <option>Month</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select id="yesr">
+                <option>Year</option>
+                <option value="2021">21</option>
+                <option value="2022">22</option>
+                <option value="2023">23</option>
+                <option value="2024">24</option>
+                <option value="2025">25</option>
+                <option value="2026">26</option>
+                <option value="2027">27</option>
+                <option value="2028">28</option>
+                <option value="2029">29</option>
+                <option value="2030">30</option>
+            </select>
+            <br>
+            <br>
+            <label class="textalign">CARD NUMBER</label>
+            <input id="card_number" type="number">
+            <br>
+            <br>
+            <label" class="textalign">CVV</label><br>
+                <input id="cvv" type="number">
+                <br>
+                <br>
+                <input type="submit" value="SUBMIT" id="submit">
+        </form>
+        </div>
+</body>
+
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit", pay);
+
+    function pay(e) {
+        e.preventDefault()
+        var form = document.querySelector("form");
+        console.log(form.card_number.value.length)
+        if (form.card_number.value.length == 16 && form.cvv.value.length == 3) {
+            take_OTP();
+        }
+        else
+            alert("card details wrong");
+    }
+
+    function take_OTP() {
+        alert("OTP sent to your registered mobile number");
+        var h3 = document.createElement("he");
+        h3.textContent = "Enter OTP";
+
+        var input = document.createElement("input")
+        input.type = "number";
+        input.setAttribute("id", "OTP")
+
+        var button = document.createElement("button");
+        button.textContent = "Verify";
+        button.addEventListener("click", verify)
+
+        document.getElementById("main").append(h3, input, button);
+    }
+
+    function verify() {
+        console.log("here")
+        var val = document.getElementById("OTP").value;
+        if (val == "1234")
+            alert("Payment Successful");
+        else
+            alert("wrong OTP");
+    }
+</script>

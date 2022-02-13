@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Healthmug</title>
+    <link rel="shortcut icon" href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-192.png">
+    <link rel="stylesheet" href="order_summary.css">
+    <script src="https://kit.fontawesome.com/3e95405894.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- this is navbar part -->
+    <div class="checkOutNavBar">
+        <div class="checkOutNavBarItems">
+            <div class="navBarLeft">
+                <div class="healthMugLogoCP">
+                    <a href="https://www.healthmug.com/">
+                        <img id="logoCP"
+                            src="https://static.oxinis.com/healthmug/image/healthmug/healthmug-logo-bright.png"
+                            alt="" />
+                    </a>
+                </div>
+                <!-- unicode below is used for phones emoji -->
+                <div class="needHelp">Help ? &#x1F4DE 9876543210</div>
+            </div>
+
+            <div class="navBarRight">
+                <div class="rightInner">
+                    <div class="innerBlockRight">
+                        <div class="fafe">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="fafeText">
+                            <span>SECURE PAYMENTS</span>
+                        </div>
+                    </div>
+                    <div class="innerBlockRight">
+                        <div class="fafe">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="fafeText">
+                            <span>EASY <br />
+                                RETURNS</span>
+                        </div>
+                    </div>
+                    <div class="innerBlockRight">
+                        <div class="fafe">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="fafeText">
+                            <span>GENUINE <br />
+                                PRODUCTS</span>
+                        </div>
+                    </div>
+                    <div class="innerBlockRight">
+                        <div class="fafe">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="fafeText">
+                            <span>100% BUYER <br />
+                                PROTECTION</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Of NavBar-->
+    <!-- form page part starts from here -->
+    <div class="formCP">
+        <div class="mailSectionParent">
+            <div class="mailSection">
+                <div class="firstCP">
+                    <p>1 <span>
+                            <!--unicode is used for check tickmark -->
+                            &#128504;
+                        </span>
+                    </p>
+                </div>
+                <div class="emailIdCP">
+                    <span>Email ID</span>
+                </div>
+                <div class="mailValue">
+                    <span>borudedinesh2@gmail.com</span>
+                </div>
+                <div class="changeMail">
+                    <a href="changeMail.html" target="_blank">
+                        <button>Change Mail</button> </a>
+                </div>
+            </div>
+        </div>
+        <div class="delvAddr">
+            <p>2. Delivery Address</p>
+        </div>
+        <div class="addNewAddr">
+            <br>
+            <div class="orderSummary">
+                <div>
+                    <p>3. Order Summary</p>
+                </div>
+            </div>
+            <div>
+                <table id="shopping_cart">
+                    <thead>
+                        <tr>
+                            <td>Item</td>
+                            <td>Quantity</td>
+                            <td>Price</td>
+                            <td>Sub Total</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4" id="add_to_cart">
+                                <img src="https://static.oxinis.com/healthmug/image/healthmug/cart.jpg"
+                                    alt="shopping cart">
+                                <br>
+                                <h2>Your Cart is Empty</h2>
+                                <h3 class="add_some_stuff">Add Some Stuff</h3>
+                                <button class="cart_button_color" onclick="cart_close()">
+                                    <a href="homepage.html">
+                                        <h3>Continue Shopping</h3>
+                                    </a>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="cart_total_table">
+                    <table>
+                        <tr id="total">
+                            <td>total:</td>
+                            <td id="total_cart"></td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Charge:</td>
+                            <td>50</td>
+                        </tr>
+                        <tr id="grand_total_cart">
+                            <td>
+                                <h3>Grand total</h3>
+                            </td>
+                            <td id="grand_total_cart_td"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <br>
+            <br><br><br>
+            <div class="orderSummary">
+                <div>
+                    <p>
+                        <a href="payment.html">
+                            4. Select Payment Method </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script src="order_summary.js">
+
+</script>

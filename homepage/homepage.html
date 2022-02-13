@@ -1,0 +1,2604 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthmug | Your Gateway To Health</title>
+    <link rel="stylesheet" href="homepage.css">
+
+    <script src="https://kit.fontawesome.com/5e8eec8caf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap"
+        rel="stylesheet">
+        <link
+      rel="icon"
+      type="img/png"
+      sizes="192x192"
+      href="https://static.oxinis.com/healthmug/image/healthmug/healthmuglogo-192.png"
+    />
+</head>
+
+
+<body>
+ <!-- ============================================================================================================== -->
+<!-- THIS IS MAIN HEADER NAV BAR  -->
+<!-- MADE BY ADITYA PRASAD -->
+<div id="navbarpart">       
+    <nav id="navigate">
+    <ul class="navigation">
+    <img id="helth_mug_image" src="https://static.oxinis.com/healthmug/image/healthmug/healthmug-logo.png"
+        onclick="healthmug_home()">
+    <form id="searchnav">
+        <input id="search_input" placeholder="Search Products">
+        <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="side_icon">
+        <a href="/contactus/contactus.html"><button><i class="fas fa-envelope"></i>
+            </button></a>
+        <p>Contact US</p>
+    </div>
+    <div class="side_icon">
+        <a href="/salewithus/salewithus.html"><button><i class="fas fa-wallet"></i>
+            </button></a>
+        <p>Sell with us</p>
+    </div>
+    <div class="side_icon" style="text-align: center;">
+        <div id="user">
+            <h1 style="margin-bottom: 0%;"><i class="fas fa-user"></i></h1>
+            <div id="user_dropdown">
+                <h4><i class="fas fa-gift"></i> My Order</h4>
+                <h4><i class="fas fa-user"></i> My Profile</h4>
+                <h4><i class="fas fa-question"></i> My Questions & Answers</h4>
+                <h4><i class="far fa-star"></i> My Prefences</h4>
+                <div>
+                    <p>New to Healthmug?</p>
+                    <h3>Sign Up</h3>
+                    <button id="Login_Logout" onclick="document.getElementById('modal-wrapper').style.display='block'">Login</button>
+                </div>
+            </div>
+        </div>
+        <p>Sign In</p>
+    
+    </div>
+    <div class="side_icon">
+        <button id="side_cart"><i style="color: #51C9A6;" class="fas fa-shopping-cart"></i>
+        </button>
+    </div>
+    </ul>
+    <ul class="navigation_bottom">
+    <div class="dropdown">
+        <button class="dropdown_button"><a href="/allopathy/allopathy.html">Allopathy</a></button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Allopathic Medicines <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Tablets & Capsules <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Syrups & Suspensions <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Creams & Ointments <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Inhalers & Respules <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Oral Drops <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Eye & Ear Drops <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Nasal Drops & Spray <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Injections & Infusions <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+            <div class="dropdown_box2">
+                <a href="#">
+                    <h4>Top Brands <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Sun Pharma</a>
+                <a href="#">Cipla</a>
+                <a href="#">Lupin</a>
+                <a href="#">Pfizer</a>
+                <a href="#">Abbott</a>
+                <a href="#">Mankind Pharma</a>
+                <a href="#">Dr. Reddys</a>
+                <a href="#">Glenmark Pharma</a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/allopathy-2.jpg" alt="alopathy">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button"><a href="/nutrition/nutrition.html">Nutrition</a></button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <a href="#">
+                    <h4> Sports Nutrition <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    Proteins
+                </a>
+                <a href="#">
+                    Fat Burner
+                </a>
+                <a href="#">
+                    Weight Gainers
+                </a>
+                <a href="#">
+                    Pre Post Workout
+                </a>
+                <a href="#">
+                    Aminos
+                </a>
+                <a href="#">
+                    Creatines
+                </a>
+                <a href="#">
+                    <h4>Vitamin & Ditery Suppliment <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Organic Products <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Organic Foods</a>
+                <a href="#">Coffee & Tea</a>
+                <a href="#">Ghee</a>
+                <a href="#">Atta/Flour</a>
+            </div>
+            <div class="dropdown_box2">
+                <a href="#">
+                    <h4>Health Food & Drinks <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Health Food & Drinks</a>
+                <a href="#">Honey, Sugar & Jaggery</a>
+                <a href="#">Oils</a>
+                <a href="#">Herbal & Vegetagle Juices</a>
+                <a href="#">Health Drinks</a>
+                <a href="#">Health Snacks &Bars</a>
+                <a href="#">Sugar Free</a>
+                <a href="#">Murabba</a>
+                <a href="#">Chawanprash</a>
+                <a href="#">Edible Seeds</a>
+                <a href="#">Green Teas</a>
+                <a href="#">DIgestives</a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/nutrition-2.jpg" alt="obesity">
+                <img src="https://static.oxinis.com/healthmug/image/ad/nutrition-3.jpg" alt="gastric">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button"><a href="/homeopathy/homeopathy.html">Homeopathy</a></button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <div style="display: inline-block; vertical-align: top;">
+                    <h3>Categories</h3>
+                    <a href="#">
+                        <h4>Medicines <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">SBL Homeopathy</a>
+                    <a href="#">Dr. Reckeweg (Germany)</a>
+                    <a href="#">Willmar Schwabe (Germany)</a>
+                    <a href="#">Adel Pekana (Germany)</a>
+                    <a href="#">Willmar Schwabe India</a>
+                    <a href="#">R S Bhargava</a>
+                    <a href="#">Baksons</a>
+                    <a href="#">B Jain</a>
+                    <a href="#">REPL</a>
+                    <a href="#">New Life</a>
+                    <a href="#">More...</a>
+                    <a href="#">
+                        <h4>Cosmetics <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Hair Care</a>
+                    <a href="#">Skin Care</a>
+                    <a href="#">Oral Care</a>
+                </div>
+                <div style="display: inline-block;vertical-align: top;padding-left: 20px;">
+                    <a href="#">
+                        <h4>Dilutions <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">3X</a>
+                    <a href="#">6X</a>
+                    <a href="#">3 CH</a>
+                    <a href="#">6 CH</a>
+                    <a href="#">12 CH</a>
+                    <a href="#">30 CH</a>
+                    <a href="#">200 CH</a>
+                    <a href="#">1000 CH</a>
+                    <a href="#">10M CH</a>
+                    <a href="#">50M CH</a>
+                    <a href="#">CM CH</a>
+                    <a href="#">
+                        <h4>Mother Tinctures <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">SBL Homeopathy</a>
+                    <a href="#">Dr. Reckeweg (Germany)</a>
+                    <a href="#"> Willmar Schwabe India</a>
+                    <a href="#"> B Jain</a>
+                </div>
+                <div style="display: inline-block;vertical-align: top;padding-left: 20px;">
+                    <a href="#">
+                        <h4>Triturations <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">SBL Homeopathy</a>
+                    <a href="#">Dr. Reckeweg (Germany)</a>
+                    <a href="#">Willmar Schwabe India</a>
+                    <a href="#">B Jain</a>
+                    <a href="#">
+                        <h4>Biochemic <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">SBL Homeopathy</a>
+                    <a href="#">Dr. Reckeweg (Germany)</a>
+                    <a href="#">B Jain</a>
+                    <a href="#">Willmar Schwabe India</a>
+                    <a href="#">
+                        <h4>Bio Combinations <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">SBL Homeopathy</a>
+                    <a href="#">Dr. Reckeweg (Germany)</a>
+                    <a href="#">B Jain</a>
+                    <a href="#">Willmar Schwabe India</a>
+                    <a href="#">Haslab (HSL)</a>
+                </div>
+                <div style="display: inline-block; vertical-align: top;padding-left: 20px;">
+                    <a href="#">
+                        <h4>Bach Flower <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Bach Flower Remedies</a>
+                    <a href="#">Bach Flower Kits</a>
+                    <a href="#">
+                        <h4>Homeopathy Kits<i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">
+                        <h4>Millesimal LM Potency <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">SBL</a>
+                    <a href="#">B Jain</a>
+                </div>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/homeopathy-3.jpg" alt="homeopathy-3">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button"><a href="/ayurveda/ayurveda.html">Ayurveda</a></button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Medicines <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Himalya</a>
+                <a href="#">Organic India</a>
+                <a href="#">Baidyanath</a>
+                <a href="#">Dabur</a>
+                <a href="#">Zandu</a>
+                <a href="#">Charak</a>
+                <a href="#">Aimil</a>
+                <a href="#">More...</a>
+                <a href="#">
+                    <h4>Herbal Foods & Juices <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Chawanprash</a>
+                <a href="#">Honey</a>
+                <a href="#">Digestives</a>
+                <a href="#">Herbal & Vegetable Juice</a>
+            </div>
+            <div class="dropdown_box2">
+                <a href="#">
+                    <h4>Single Remedies <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Ras & Sindoor</a>
+                <a href="#">Bhasm & Pishri</a>
+                <a href="#">Vati, Gutika & Guggulu</a>
+                <a href="#">Asava Arishta & Kadha</a>
+                <a href="#">Loha & Mandur</a>
+                <a href="#">Churan, Power, Avleha & Pak</a>
+                <a href="#">Tailam & Ghrita</a>
+                <a href="#">
+                    <h4>Pantanjali <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/ayurveda-3.jpg" alt="dibaties">
+                <img src="https://static.oxinis.com/healthmug/image/ad/ayurveda-2.jpg" alt="skin">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button"><a href="/unani/unani.html">Unani</a></button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Unani Medicines <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Majun & Jawarish <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Safoof, Labub & Kushta <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Sharbat, Sirka & Arq <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Lauq & Saoot <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Khamira & Itrifal <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Roghan & Oils <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Unani Brands</a>
+                <a href="#">Hamdard</a>
+                <a href="#">New Shama</a>
+                <a href="#">Dehivi</a>
+                <a href="#">Rex</a>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button"><a href="/personal care/personalcare.html">Personal Care</a></button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Aroma Oils <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Essential Oils</a>
+                <a href="#">Skin Care</a>
+                <a href="#">Face</a>
+                <a href="#">Body</a>
+                <a href="#">Foot Care</a>
+                <a href="#">Sanitizers & Hand Wash</a>
+                <a href="#">
+                    <h4>Hair Care <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Shampoo & Conditioners</a>
+                <a href="#">Hair, Oils & Creams</a>
+                <a href="#">Hair Serum & Mask</a>
+                <a href="#">Hair Color & Dyes</a>
+                <a href="#">Henna Mehandi</a>
+                <a href="#">
+                    <h4>Mens Grooming <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Beard Oils and Wax</a>
+                <a href="#">Shaving Cream & Gels</a>
+                <a href="#">Men Wellness</a>
+            </div>
+            <div class="dropdown_box2">
+                <a href="#">
+                    <h4>Bath & Shower <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Shower Gel & Hand Wash</a>
+                <a href="#">Soaps</a>
+                <a href="#">Talcs & Deos</a>
+                <a href="#">
+                    <h4>Oral Care <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Toothpaste</a>
+                <a href="#">Gums Care</a>
+                <a href="#">
+                    <h4>Female Care <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Intimate Care</a>
+                <a href="#">Pregenancy & Maternity Care</a>
+                <a href="#">
+                    <h4>Elderly Care <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Mosquito Repellents <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/ayurveda-3.jpg" alt="hair_loss">
+                <img src="https://static.oxinis.com/healthmug/image/ad/beauty-3.jpg" alt="natural_beauty">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button">Baby Care</button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Tonics & Supplements <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Bath & Skin <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Shampoos & Bath Gels</a>
+                <a href="#">Baby Oils</a>
+                <a href="#">Baby Powder</a>
+                <a href="#">Soaps</a>
+                <a href="#">
+                    <h4>Wipes & Diapers <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Gift Packs <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/baby-1.jpg" alt="baby">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button">Sexual Wellness</button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Supplements <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Condoms <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/sexualwellness-1.jpg"
+                    alt="sexual_illness">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button">Fitness</button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Supports & Splints <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Shoulder Support</a>
+                <a href="#">Elbow Support</a>
+                <a href="#">Forearm Support</a>
+                <a href="#">Wrist Support</a>
+                <a href="#">Chest Support</a>
+                <a href="#">Cervical Support</a>
+                <a href="#">Back Support</a>
+                <a href="#">Abdominal Support</a>
+                <a href="#">Thigh Support</a>
+                <a href="#">Knee Support</a>
+                <a href="#">Calf Support</a>
+                <a href="#">Ankle Support</a>
+                <a href="#">Finger Splints</a>
+                <a href="#">Compression Stockings</a>
+                <a href="#">Insoles & Heel cups</a>
+            </div>
+            <div class="dropdown_box2">
+                <a href="#">
+                    <h4>Health Devices <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Weighing Scales</a>
+                <a href="#">BP Monitors</a>
+                <a href="#">Thermometer</a>
+                <a href="#">Respiratory Care</a>
+                <a href="#">Activity Moniter</a>
+                <a href="#">Hot and Cold Pads & Bottles</a>
+                <a href="#">
+                    <h4>Fitness Equipment <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Exercisers</a>
+                <a href="#">Weights</a>
+                <a href="#">
+                    <h4>Hospital Supplies <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Stethoscopes</a>
+                <a href="#">Protective Gears</a>
+                <a href="#">Hospiatal Beds</a>
+                <a href="#">
+                    <h4>Bandages & Tapes <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Walking Sticks <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Traction Kits <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Aroma Therapy <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Disability Aids <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">
+                    <h4>Massagers <i class="fas fa-caret-right"></i></h4>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button">Consultation</button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <h3>Categories</h3>
+                <a href="#">
+                    <h4>Free Treatments <i class="fas fa-caret-right"></i></h4>
+                </a>
+                <a href="#">Homeo Treatments</a>
+                <a href="#">Ayurveda Treatments</a>
+                <a href="#">Unani Treatments</a>
+                <a href="#">Diet Counselling</a>
+            </div>
+            <div class="dropdown_box3">
+                <img src="https://static.oxinis.com/healthmug/image/ad/treatment-homeopathy-1.jpg"
+                    alt="Homeopathy">
+                <img src="https://static.oxinis.com/healthmug/image/ad/treatment-ayurveda-1.jpg"
+                    alt="ayurveda">
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropdown_button">Disease</button>
+        <div class="dropdown_content navigation">
+            <div class="dropdown_box1">
+                <div style="display: inline-block; vertical-align: top;">
+                    <h3>Categories</h3>
+                    <a href="#">
+                        <h4>Mind <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Addiction</a>
+                    <a href="#">Anxiety & Depression</a>
+                    <a href="#">Sleeplessness</a>
+                    <a href="#">Weak Memory</a>
+                    <a href="#">
+                        <h4>Face <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Acne & Pimples</a>
+                    <a href="#">Dark Circles & Marks</a>
+                    <a href="#">Wrinkles & Aging</a>
+                    <a href="#">
+                        <h4>Hair <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Hair Fall</a>
+                    <a href="#">Dandruff</a>
+                    <a href="#">Alopecia & Bald Patches</a>
+                    <a href="#">Premature Graying</a>
+                    <a href="#">Lice</a>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <a href="#">
+                        <h4>Eyes & Ear <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Conjunctivitis</a>
+                    <a href="#">Cataract</a>
+                    <a href="#">Eye Strain</a>
+                    <a href="#">Glaucoma</a>
+                    <a href="#">Styles</a>
+                    <a href="#">Ear Pain</a>
+                    <a href="#">Ear Wax</a>
+                    <a href="#">
+                        <h4>Nose & Throat <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Allergic Rhinitis</a>
+                    <a href="#">Sneezing & Running Nose</a>
+                    <a href="#">Sinusitis & Blocked Nose</a>
+                    <a href="#">Snoring</a>
+                    <a href="#">Tonsilitis & Throat Pain</a>
+                    <a href="#">Laryngitis & Hoarse Voice</a>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <a href="#">
+                        <h4>Nervous System <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Headache & Migraine</a>
+                    <a href="#">Vertigo/Motion Sickness</a>
+                    <a href="#">Neuralgia & Nerve Pain</a>
+                    <a href="#">Epilepsy & Fits</a>
+                    <a href="#">
+                        <h4>Mouth, Gums & Teeth <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Bad Breath</a>
+                    <a href="#">Bleeding Gums/Pyorrhoea</a>
+                    <a href="#">Mouth Ulcers/Aphthae</a>
+                    <a href="#">Cavities & Tooth Pain</a>
+                    <a href="#">Stammering</a>
+                    <a href="#">
+                        <h4>Respiratory <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Asthma</a>
+                    <a href="#">Bronchitis</a>
+                    <a href="#">Cough</a>
+                    <a href="#">Pneumonia</a>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <a href="#">
+                        <h4>Rectum & Piles <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Constipation</a>
+                    <a href="#">Piles & Fissures</a>
+                    <a href="#">Loose Motions/Diarrhoea</a>
+                    <a href="#">IBS & Colitis</a>
+                    <a href="#">Fistula</a>
+                    <a href="#">Worms</a>
+                    <a href="#">
+                        <h4>Digestive System <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Indigestion/Acidity/Gas</a>
+                    <a href="#">Loss of Appetite</a>
+                    <a href="#">Jaundice & Fatty Liver</a>
+                    <a href="#">Stomach Pain & Colic</a>
+                    <a href="#">Vomiting & Nausea</a>
+                    <a href="#">Gail Stones</a>
+                    <a href="#">Appendicitis</a>
+                    <a href="#">Hernia</a>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <a href="#">
+                        <h4>Heart & Cardiovascular <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Heart Tonics</a>
+                    <a href="#">Chest Pain & Angina</a>
+                    <a href="#">Cholesterol & Triglyceride</a>
+                    <a href="#">
+                        <h4>Urinary System <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Urinary Track Infection </a>
+                    <a href="#">Kidney Stone</a>
+                    <a href="#">Frequent Urination</a>
+                    <a href="#">
+                        <h4>Bone, Joint & Muscles <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Arthritis & Joint Pains</a>
+                    <a href="#">Back & Knee Pain</a>
+                    <a href="#">Crevical Spondolyisis</a>
+                    <a href="#">Injuries & Fractures</a>
+                    <a href="#">Gout & Uric Acid</a>
+                    <a href="#">Osteoporosis</a>
+                    <a href="#">Sciatica</a>
+                    <a href="#">Heel Pain</a>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <a href="#">
+                        <h4>Skin & Nails <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Bad Sores</a>
+                    <a href="#">Boils & Abscesses</a>
+                    <a href="#">Burns</a>
+                    <a href="#">Cyst & Tumor</a>
+                    <a href="#">Eczema</a>
+                    <a href="#">Herpes</a>
+                    <a href="#">Nail Fungus</a>
+                    <a href="#">Psoriasis & Dry Skin</a>
+                    <a href="#">Rash/Itch/Urticaria/Hives</a>
+                    <a href="#">Vitiligo & Leucoderma</a>
+                    <a href="#">Warts & Corns</a>
+                    <a href="#">
+                        <h4>Fevers & Flu <i class="fas fa-caret-right"></i></h4>
+                    </a>
+                    <a href="#">Dengue</a>
+                    <a href="#">Flu & Fever</a>
+                    <a href="#">Malaria</a>
+                    <a href="#">Typhoid</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+    
+    <!-- bluring background -->
+    
+    <div id="blur_background"></div>
+    
+    
+    <!-- cart -->
+    
+    
+    <div id="shopping">
+    <h3 style="text-align: right;color:#C9C4BD" onclick="cart_close()"><i class="fas fa-times"></i></h3>
+    <h2><span>Shopping Cart</span><span id="add_more">(0 items)</span></h2>
+    <br>
+    <table id="shopping_cart">
+    <thead>
+        <tr>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Price</td>
+            <td>
+                <form id="check_pincode">
+                    <labe>Check for Delivery</labe><input type="number" id="pincode"
+                        placeholder="Pincode"><button type="submit">Check</button>
+                </form>
+            </td>
+            <td>Sub Total</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="5" id="add_to_cart">
+                <img src="https://static.oxinis.com/healthmug/image/healthmug/cart.jpg" alt="shopping cart">
+                <br>
+                <h2>Your Cart is Empty</h2>
+                <h3 class="add_some_stuff">Add Some Stuff</h3>
+                <button class="cart_button_color" onclick="cart_close()">
+                    <h3>Continue Shopping</h3>
+                </button>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    <div class="bottom_shoping_cart">
+    <div>
+        <h6>Safe Buy: 100% Money Back Guarantee</h6>
+        <h6>Live Easy: 15 Days Easy Return Policy</h6>
+        <h6>Top Notch: Genuine Products Guarantee</h6>
+    </div>
+    <div id="cart_total_table">
+        <table>
+            <tr id="total">
+                <td>total:</td>
+                <td id="total_cart"></td>
+            </tr>
+            <tr>
+                <td>Delivery Charge:</td>
+                <td>50</td>
+            </tr>
+            <tr id="grand_total_cart">
+                <td>
+                    <h3>Grand total</h3>
+                </td>
+                <td id="grand_total_cart_td"></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div class="bottom_shopping_cart_button">
+    <button class="cart_button_color" onclick="window.location.assign('checkOut.html')">
+
+        <h3>Place Order <i class="fas fa-angle-right"></i></h3>
+    </button>
+    <button onclick="cart_close()">
+        <h3>Continue Shopping</h3>
+    </button>
+    </div>
+    </div>
+    
+    <!-- popup new window -->
+    <div id="popup_main">
+    <div id="image_prod">
+    <img src="https://static.oxinis.com/healthmug/image/product/137438-1-200.jpg" alt="medicine">
+    </div>
+    <div id="prod_details">
+    <h2></h2>
+    <h3></h3>
+    <br>
+    <h3>MRP:<span id="real_price"></span></h3>
+    <h2></h2>
+    <br>
+    <button style="background-color: #51C9A6;color:white">
+    <h3><i class="fas fa-shopping-cart"></i>Buy Now</h3>
+    </button>
+    <button id="add_to_cart_shopping">
+    <h3>Add to Cart</h3>
+    </button>
+    <br>
+    <form>
+    <table>
+        <tr>
+            <td>
+                <label for="pincode">Delivery</label>
+            </td>
+            <td>
+                <input type="number" placeholder="Enter Pincode">
+                <button type="submit">Check</button><label>delivered between 3-5 days</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <label>Enter pincode to check estimated delivery time and COD availability</label>
+            </td>
+        </tr>
+    </table>
+    </form>
+    
+    </div>
+    <div id="advertise">
+    <img src="https://static.oxinis.com/healthmug/image/brand/821-150.jpg" alt="advert">
+    <h1 style="font-size: 100px;"><i class="fa fa-shield"></i></h1>
+    <table>
+    <tr>
+        <td>
+            <h1><i class="fas fa-wallet"></i></h1>
+            safe buy
+        </td>
+        <td>
+            <h1><i class="fas fa-undo"></i></h1>
+            Live Easy
+        </td>
+        <td>
+            <h1><i class="fas fa-medal"></i></h1>
+            Genuine
+        </td>
+    </tr>
+    </table>
+    <img src="https://static.oxinis.com/healthmug/image/asset/391-ke-400.png" alt="offer">
+    </div>
+    </div>
+  </div>
+<!-- ============================================================================================================== -->
+<!-- THIS IS SLIDING IMAGES  ADVERTISMENT -->
+<!-- THIS IS MADE BY AKSHAY KUMAR -->
+<div id="slide_top_main">
+        <div id="akshayslidework">
+            <div class="slider">
+                <div class="slides">
+                    <!-- radio btn start here -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!-- image start here -->
+                    <div class="slide first">
+                        <img src="https://static.oxinis.com/healthmug/image/asset/454-ru.png" alt="image">
+                    </div>
+                    <div class="slide">
+                        <img src="https://static.oxinis.com/healthmug/image/asset/386-mu.png" alt="image">
+                    </div>
+                    <div class="slide">
+                        <img src="https://static.oxinis.com/healthmug/image/asset/354-wn.jpg" alt="image">
+                    </div>
+                    <div class="slide">
+                        <img src="https://static.oxinis.com/healthmug/image/asset/528-po.png" alt="image">
+                    </div>
+                    <!-- automatic navigation start here -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1">Great Discount with extra mobiKwik cashback </div>
+                        <div class="auto-btn2">Get Free Online Consulation</div>
+                        <div class="auto-btn3">Doctor Registration Consult Patient Online</div>
+                        <div class="auto-btn4">Top Brands and Best In Class Products</div>
+                    </div>
+                    <!-- manual navigation start here -->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn" id="one">Great Discount with extra mobiKwik
+                            cashback</label>
+                        <label for="radio2" class="manual-btn" id="two">Get Free Online Consulation</label>
+                        <label for="radio3" class="manual-btn" id="three">Doctor Registration Consult Patient
+                            Online</label>
+                        <label for="radio4" class="manual-btn" id="four">Top Brands and Best In Class
+                            Products</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slideshow_side-images">
+                <div class="side_images">
+                    <img id="sidebox_image1" src="https://static.oxinis.com/healthmug/image/asset/595-it.png"
+                        alt="image">
+                </div>
+                <div class="side_images">
+                    <img id="sidebox_image2" src="https://static.oxinis.com/healthmug/image/asset/10-sb.jpg"
+                        alt="image">
+                </div>
+                <div class="side_images">
+                    <img id="sidebox_image3" src="https://static.oxinis.com/healthmug/image/asset/529-jk.png"
+                        alt="image">
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+<!-- ============================================================================================================== -->    
+<!-- THIS IS FOR TOP CATEGORIES -->
+<!-- MADE BY SAIPRASAD -->
+<div id="topcathome">
+        <div id="topcategory">
+            <h3>TOP CATEGORIES</h3>
+            <div id="tcproduct">
+                <div >
+                    <img src="https://static.oxinis.com/healthmug/image/category/10000.png">
+                    <p>Deals</p>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/category/0.png">
+                    <p>Consult</p>
+                </div>
+                <div onclick="window.location.assign('/allopathy/allopathy.html')">
+                    <img src="https://static.oxinis.com/healthmug/image/category/213.png">
+                    <p>Allopathy</p>
+                </div>
+                <div onclick="window.location.assign('/homeopathy/homeopathy.html')">
+                    <img src="https://static.oxinis.com/healthmug/image/category/1.png">
+                    <p>Homeopathy</p>
+                </div>
+                <div onclick="window.location.assign('/ayurveda/ayurveda.html')">
+                    <img src="https://static.oxinis.com/healthmug/image/category/9.png">
+                    <p>Ayurveda</p>
+                </div>
+                <div onclick="window.location.assign('/unani/unani.html')">
+                    <img src="https://static.oxinis.com/healthmug/image/category/163.png">
+                    <p>Unani</p>
+                </div>
+                <div onclick="window.location.assign('/nutrition/nutrition.html')">
+                    <img src="https://static.oxinis.com/healthmug/image/category/122.png">
+                    <p>Nutrition & Supplements</p>
+                </div>
+                <div onclick="window.location.assign('/personal care/personalcare.html')">
+                    <img src="https://static.oxinis.com/healthmug/image/category/82.png">
+                    <p>Beauty & Personal Care</p>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/category/41.png">
+                    <p>Health Aid & Fitnaess</p>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/category/20.png">
+                    <p>Baby Care</p>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/category/38.png">
+                    <p>Sexual Wellness</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+<!-- ============================================================================================================== -->
+        <!-- THIS IS FOR ONLY ADVERTISING IMAGES -->
+        <!-- MADE BY SAI -->
+<div id="addhome">
+        <div id="onlyimg">
+            <img src="https://static.oxinis.com/healthmug/image/asset/167-lw.jpg">
+            <img src="https://static.oxinis.com/healthmug/image/asset/391-ke.png">
+            <img src="https://static.oxinis.com/healthmug/image/asset/526-gc.png">
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+
+<!-- ============================================================================================================== -->
+        <!-- THIS IS FOR SHOP BY HEALTH CONCERN -->
+        <!-- MADE BY SAIPARSAD -->
+<div id="healtconhome">
+        <div class="shopby">
+            <h3>SHOP BY HEALTH CONCERN</h3>
+            <hr>
+            <div class="shopbyflex">
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/9-icon.png">
+                    <h4>Artirities & Rheumatism</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/34-icon.png">
+                    <h4>Diabeties</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/49-icon.png">
+                    <h4>Hair fall</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/72-icon.png">
+                    <h4>Low height</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/51-icon.png">
+                    <h4>Headech & Migrain</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/79-icon.png">
+                    <h4>Obesity</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/93-icon.png">
+                    <h4>Snoring</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/disease/83-icon.png">
+                    <h4>Piles & fissures</h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+
+
+<!-- ============================================================================================================== -->
+        <!-- THIS IS FOR SHOP BY TOP BRANDS -->
+        <!-- MADE BY SAIPARSAD -->
+        <div id="topbrandhome">
+        <div class="shopby">
+            <h3>SHOP BY TOP BRANDS</h3>
+            <hr>
+            <div class="shopbyflex">
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/1-100.jpg">
+                    <h4>Dr.Reckeweg</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/3-100.jpg">
+                    <h4>SBL</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/2-100.jpg">
+                    <h4>Willimar Schwabe India</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/6-100.jpg">
+                    <h4>Bakson</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/193-100.jpg">
+                    <h4>Hevert</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/11-100.jpg">
+                    <h4>Baidyanath</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/321-100.jpg">
+                    <h4>Planet Ayurveda</h4>
+                </div>
+                <div>
+                    <img src="https://static.oxinis.com/healthmug/image/brand/17-100.jpg">
+                    <h4>Hamdard</h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+
+
+
+
+<!-- ============================================================================================================== -->
+        <!-- HERE STARTS SLIDING PRODUCT  -->
+        <!-- MADE BY SAIPARSAD -->
+<div id="dliderforproduct">
+        <!--STARTS SLIDING FOR ALLOPATHI PRODUCT  -->
+
+        <div class="slideviewALLO">
+            <div class="slideviewallALLO">
+                <img src="https://static.oxinis.com/healthmug/image/category/213.png">
+                <h1>Allopathy</h1>
+                <button onclick="window.location.assign('/allopathy/allopathy.html')">View All</button>
+            </div>
+
+            <div class="slideshow-containerALLO">
+                <div class="mySlidesALLO fadeALLO">
+                    <div class="slideproductALLO">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/117616-4-200.jpg">
+                            <p>Neurobion Forte Tablet (30tab)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;32</span>
+                                <span class="slideproductpricegiveALLO">&#8377;27</span>
+                                <span class="slideproductpricediscountALLO">16%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/87220-1-200.jpg">
+                            <p>Candid Cream (50g) (paste Tube)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;153</span>
+                                <span class="slideproductpricegiveALLO">&#8377;130</span>
+                                <span class="slideproductpricediscountALLO">15%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/117573-4-200.jpg">
+                            <p>Evion Capsule (400mg) (10caps)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;42</span>
+                                <span class="slideproductpricegiveALLO">&#8377;35</span>
+                                <span class="slideproductpricediscountALLO">13%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/127856-1-200.jpg">
+                            <p>Salicylic Acid I.P. (20g) (Liquid past)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;70</span>
+                                <span class="slideproductpricegiveALLO">&#8377;65</span>
+                                <span class="slideproductpricediscountALLO">11%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/110693-1-200.jpg">
+                            <p>Limcee Chewable Tablet Orange (15tab)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;25</span>
+                                <span class="slideproductpricegiveALLO">&#8377;20</span>
+                                <span class="slideproductpricediscountALLO">20%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesALLO fadeALLO">
+                    <div class="slideproductALLO">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/97147-1-200.jpg ">
+                            <p>Shelcal Tablet (15tab)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;108</span>
+                                <span class="slideproductpricegiveALLO">&#8377;92</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/112434-3-200.jpg">
+                            <p>Refresh Tears Eye Drop (10ml)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;143</span>
+                                <span class="slideproductpricegiveALLO">&#8377;122</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/79425-1-200.jpg">
+                            <p>Calcirol Sachet 60K (1g)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;56</span>
+                                <span class="slideproductpricegiveALLO">&#8377;48</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/127819-1-200.jpg">
+                            <p>Hydrogen Peroxide Solution (100ml)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;32</span>
+                                <span class="slideproductpricegiveALLO">&#8377;31</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/75253-1-200.jpg">
+                            <p>Abbott Vitamin A Chewable Tablet (10tab)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;7</span>
+                                <span class="slideproductpricegiveALLO">&#8377;8</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesALLO fadeALLO">
+                    <div class="slideproductALLO">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/99350-1-200.jpg">
+                            <p>Galact Granules Elaichi (200g)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;383</span>
+                                <span class="slideproductpricegiveALLO">&#8377;236</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/115352-4-200.jpg">
+                            <p>Dexorange Capsule (30caps) </p>
+                            <h4><span class="slideproductpriceALLO">&#8377;141</span>
+                                <span class="slideproductpricegiveALLO">&#8377;120</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/102286-1-200.jpg">
+                            <p>Becadexamin Soft Gelatin Capsule ()30caps</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;42</span>
+                                <span class="slideproductpricegiveALLO">&#8377;26</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/104411-1-200.jpg">
+                            <p>Becosules Z Capsule (20caps)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;45</span>
+                                <span class="slideproductpricegiveALLO">&#8377;38</span>
+                                <span class="slideproductpricediscountALLO">14%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/86288-1-200.jpg">
+                            <p>Becozinc Capsule (30caps)</p>
+                            <h4><span class="slideproductpriceALLO">&#8377;47</span>
+                                <span class="slideproductpricegiveALLO">&#8377;45</span>
+                                <span class="slideproductpricediscountALLO">5%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prevALLO" onclick="plusSlidesALLO(-1)">&#10094;</a>
+                <a class="nextALLO" onclick="plusSlidesALLO(1)">&#10095;</a>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- STARTS SLIDING FOR HOMEOPATHI PRODUCT -->
+
+        <div class="slideviewHOME">
+            <div class="slideviewallHOME">
+                <img src="https://static.oxinis.com/healthmug/image/category/1.png">
+                <h1>Homeopathy</h1>
+                <button onclick="window.location.assign('/homeopathy/homeopathy.html')">View All</button>
+            </div>
+
+            <div class="slideshow-containerHOME">
+                <div class="mySlidesHOME fadeHOME">
+                    <div class="slideproductHOME">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/1365-1-400.jpg">
+                            <p>SBL Nux Vomica 30 CH (30ml)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;90</span>
+                                <span class="slideproductpricegiveHOME">&#8377;70</span>
+                                <span class="slideproductpricediscountHOME">14%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/54301-2-400.jpg">
+                            <p>SBL Thuja Occidentalis 200 CH (30ml)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;100</span>
+                                <span class="slideproductpricegiveHOME">&#8377;95</span>
+                                <span class="slideproductpricediscountHOME">5%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/873-1-400.jpg">
+                            <p>SBL Calcarea Fluoricum 6X (25g)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;98</span>
+                                <span class="slideproductpricegiveHOME">&#8377;92</span>
+                                <span class="slideproductpricediscountHOME">5%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5574-2-400.jpg">
+                            <p>SBL Kali Phosphorica 6X (25g)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;70</span>
+                                <span class="slideproductpricegiveHOME">&#8377;65</span>
+                                <span class="slideproductpricediscountHOME">8%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/524-4-400.jpg">
+                            <p>SBL Clearstone Drops (30ml)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;125</span>
+                                <span class="slideproductpricegiveHOME">&#8377;110</span>
+                                <span class="slideproductpricediscountHOME">13%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesHOME fadeHOME">
+                    <div class="slideproductHOME">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/66586-1-200.jpg">
+                            <p>Willmar Schwabe India Berberis Aquifolium 1X (Q) (30ml)</p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;195</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5587-2-400.jpg">
+                            <p>Willmar Schwabe India Ashwagandha (Withania somnifera) 1X (Q)</p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;100</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/7627-1-400.jpg">
+                            <p>Willmar Schwabe India Cydonia Vulgaris 30 CH (30ml)</p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;90</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/66612-1-400.jpg">
+                            <p>Willmar Schwabe India Syzygium Jambolanum 1X (Q) (30ml)</p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;38</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/6330-1-400.jpg">
+                            <p>Willmar Schwabe India Crataegus oxyacantha 1X (Q) (30ml)</p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;165</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesHOME fadeHOME">
+                    <div class="slideproductHOME">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/411-2-400.jpg">
+                            <p>Dr. Reckeweg R89 (Lipocol) (30ml)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;250</span>
+                                <span class="slideproductpricegiveHOME">&#8377;215</span>
+                                <span class="slideproductpricediscountHOME">15%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/227-1-400.jpg">
+                            <p>Dr. Reckeweg Calcarea Fluoricum 6X (20g) </p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;170</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/329-1-400.jpg">
+                            <p>Dr. Reckeweg R5 (Gastreu) (22ml)</p>
+                            <h4><span class="slideproductpriceHOME"></span>
+                                <span class="slideproductpricegiveHOME">&#8377;250</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/1-1-400.jpg">
+                            <p>Dr. Reckeweg Aalserum 7X (20ml)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;250</span>
+                                <span class="slideproductpricegiveHOME">&#8377;235</span>
+                                <span class="slideproductpricediscountHOME">7%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/367-1-400.jpg">
+                            <p>Dr. Reckeweg R42 (Haemovenin) (22ml)</p>
+                            <h4><span class="slideproductpriceHOME">&#8377;100</span>
+                                <span class="slideproductpricegiveHOME">&#8377;95</span>
+                                <span class="slideproductpricediscountHOME">5%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prevHOME" onclick="plusSlidesHOME(-1)">&#10094;</a>
+                <a class="nextHOME" onclick="plusSlidesHOME(1)">&#10095;</a>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- STARTS SLIDING FOR AYURVEDA PRODUCT -->
+
+        <div class="slideviewVEDA">
+            <div class="slideviewallVEDA">
+                <img src="https://static.oxinis.com/healthmug/image/category/9.png">
+                <h1>Ayurveda</h1>
+                <button onclick="window.location.assign('/ayurveda/ayurveda.html')">View All</button>
+            </div>
+
+            <div class="slideshow-containerVEDA">
+                <div class="mySlidesVEDA fadeVEDA">
+                    <div class="slideproductVEDA">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/6125-1-400.jpg">
+                            <p>Baidyanath Purnachandra Ras (Ordinary) (40tab)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;32</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;27</span>
+                                <span class="slideproductpricediscountVEDA">16%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/6125-1-400.jpg">
+                            <p>Baidyanath Bhringrajasava (450ml)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;190</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;181</span>
+                                <span class="slideproductpricediscountVEDA">2%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5958-8-400.jpg">
+                            <p>Baidyanath Chandraprabha Bati (80tab)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;135</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;121</span>
+                                <span class="slideproductpricediscountVEDA">10%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/6001-5-400.jpg">
+                            <p>Baidyanath Kanchnar Guggulu (80tab)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;70</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;65</span>
+                                <span class="slideproductpricediscountVEDA">11%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5812-2-400.jpg">
+                            <p>Baidyanath Puspadhanwa Ras (5g)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;250</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;208</span>
+                                <span class="slideproductpricediscountVEDA">18%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesVEDA fadeVEDA">
+                    <div class="slideproductVEDA">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5718-2-400.jpg">
+                            <p>Dabur Triphala Tablets (60tab)</p>
+                            <h4><span class="slideproductpriceVEDA"></span>
+                                <span class="slideproductpricegiveVEDA">&#8377;74</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/128831-1-400.jpg">
+                            <p>Dabur Arjun Chhal Churna (100g)</p>
+                            <h4><span class="slideproductpriceVEDA"></span>
+                                <span class="slideproductpricegiveVEDA">&#8377;81</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/129764-2-400.jpg">
+                            <p>Dabur Mulethi (Yashtimadhu) Churna (100g)</p>
+                            <h4><span class="slideproductpriceVEDA"></span>
+                                <span class="slideproductpricegiveVEDA">&#8377;77</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/60559-1-400.jpg">
+                            <p>Dabur Erand Tail (Castor Oil) (100ml)</p>
+                            <h4><span class="slideproductpriceVEDA"></span>
+                                <span class="slideproductpricegiveVEDA">&#8377;108</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/64778-1-400.jpg">
+                            <p>Dabur Jatyadi Tail (50ml)</p>
+                            <h4><span class="slideproductpriceVEDA"></span>
+                                <span class="slideproductpricegiveVEDA">&#8377;125</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesVEDA fadeVEDA">
+                    <div class="slideproductVEDA">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/130156-3-400.jpg">
+                            <p>Unjha Bilwasav (450ml)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;180</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;165</span>
+                                <span class="slideproductpricediscountVEDA">12%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/54580-1-400.jpg">
+                            <p>Unjha Pushpadhanwa Ras (80tab) </p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;350</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;349</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/11740-1-400.jpg">
+                            <p>Unjha Arogyavardhini Rasa (40tab)</p>
+                            <h4><span class="slideproductpriceVEDA"></span>
+                                <span class="slideproductpricegiveVEDA">&#8377;78</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/11596-2-400.jpg">
+                            <p>Unjha Navratna Ras (Gold Coated) (30tab)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;850</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;795</span>
+                                <span class="slideproductpricediscountVEDA">8%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/6881-2-400.jpg">
+                            <p>Unjha Kanth Sudharak Vati (10g)</p>
+                            <h4><span class="slideproductpriceVEDA">&#8377;100</span>
+                                <span class="slideproductpricegiveVEDA">&#8377;80</span>
+                                <span class="slideproductpricediscountVEDA">20%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prevVEDA" onclick="plusSlidesVEDA(-1)">&#10094;</a>
+                <a class="nextVEDA" onclick="plusSlidesVEDA(1)">&#10095;</a>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- STARTS SLIDING FOR UNANI PRODUCT -->
+
+        <div class="slideviewNANI">
+            <div class="slideviewallNANI">
+                <img src="https://static.oxinis.com/healthmug/image/category/163.png">
+                <h1>Unani</h1>
+                <button onclick="window.location.assign('/unani/unani.html')">View All</button>
+            </div>
+
+            <div class="slideshow-containerNANI">
+                <div class="mySlidesNANI fadeNANI">
+                    <div class="slideproductNANI">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41873-1-200.jpg">
+                            <p>Hamdard Rogan Baiza Murgh (25ml)</p>
+                            <h4><span class="slideproductpriceNANI">&#8377;40</span>
+                                <span class="slideproductpricegiveNANI">&#8377;32</span>
+                                <span class="slideproductpricediscountNANI">20%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/70815-1-200.jpg">
+                            <p>Hamdard Majun Arad Khurma (1kg)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;310</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41874-1-200.jpg">
+                            <p>Hamdard Rogan Beer Bahuti (10ml)</p>
+                            <h4><span class="slideproductpriceNANI">&#8377;80</span>
+                                <span class="slideproductpricegiveNANI">&#8377;75</span>
+                                <span class="slideproductpricediscountNANI">9%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41819-1-200.jpg">
+                            <p>Hamdard Matosine Capsule (60caps)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;138</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41704-1-200.jpg">
+                            <p>Hamdard Itrifal Ustukhuddus (150g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;60</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesNANI fadeNANI">
+                    <div class="slideproductNANI">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41607-1-200.jpg">
+                            <p>New Shama Zulfi Shampoo (500ml)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;284</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/42838-1-200.jpg">
+                            <p>New Shama Depane Tablet (100tab)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;300</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41606-1-200.jpg">
+                            <p>New Shama Zulfi Soap (1pcs)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;42</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41334-1-200.jpg">
+                            <p>New Shama Habbe Jadwar (20Pills)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;166</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41601-2-200.jpg">
+                            <p>New Shama Tiryaq Nazla (125g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;97</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesNANI fadeNANI">
+                    <div class="slideproductNANI">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/42498-2-200.jpg">
+                            <p>Rex Barshasha (60g)</p>
+                            <h4><span class="slideproductpriceNANI">&#8377;420</span>
+                                <span class="slideproductpricegiveNANI">&#8377;380</span>
+                                <span class="slideproductpricediscountNANI">15%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41248-1-200.jpg">
+                            <p>Rex Health Tonic (500ml) </p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;225</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/41266-2-200.jpg">
+                            <p>Rex Sharbat Zoofa Murakkab (200ml)</p>
+                            <h4>
+                                <span class="slideproductpricegiveNANI">&#8377;123</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/42590-1-200.jpg">
+                            <p>Rex Rexotone (500ml)</p>
+                            <h4><span class="slideproductpriceNANI">&#8377;228</span>
+                                <span class="slideproductpricegiveNANI">&#8377;202</span>
+                                <span class="slideproductpricediscountNANI">12%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/42653-1-200.jpg">
+                            <p>Rex Majun Anjdaan Khas (250g)</p>
+                            <h4><span class="slideproductpriceNANI">&#8377;650</span>
+                                <span class="slideproductpricegiveNANI">&#8377;588</span>
+                                <span class="slideproductpricediscountNANI">14%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prevNANI" onclick="plusSlidesNANI(-1)">&#10094;</a>
+                <a class="nextNANI" onclick="plusSlidesNANI(1)">&#10095;</a>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- STARTS SLIDING FOR NUTRITION PRODUCTS -->
+
+        <div class="slideview">
+            <div class="slideviewall">
+                <img src="https://static.oxinis.com/healthmug/image/category/122.png">
+                <h1>Nutrition & Supplements</h1>
+                <button onclick="window.location.assign('/nutrition/nutrition.html')">View All</button>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="slideproduct">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/56346-1-200.jpg">
+                            <p>Axiom Karela Jamun Swaras (1000ml)</p>
+                            <h4><span class="slideproductprice">&#8377;300</span>
+                                <span class="slideproductpricegive">&#8377;270</span>
+                                <span class="slideproductpricediscount">10%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/56372-1-200.jpg">
+                            <p>Axiom Sheesham Juice (500ml)</p>
+                            <h4><span class="slideproductprice">&#8377;180</span>
+                                <span class="slideproductpricegive">&#8377;160</span>
+                                <span class="slideproductpricediscount">10%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/56382-1-200.jpg">
+                            <p>Axiom Triphla Aloevera Juice (1000ml)</p>
+                            <h4><span class="slideproductprice">&#8377;275</span>
+                                <span class="slideproductpricegive">&#8377;250</span>
+                                <span class="slideproductpricediscount">11%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/56328-1-200.jpg">
+                            <p>Axiom Chhoti Duddhi Juice (500ml)</p>
+                            <h4><span class="slideproductprice">&#8377;300</span>
+                                <span class="slideproductpricegive">&#8377;240</span>
+                                <span class="slideproductpricediscount">20%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/56345-1-200.jpg">
+                            <p>Axiom Karela Jamun Swaras (500ml)</p>
+                            <h4><span class="slideproductprice">&#8377;166</span>
+                                <span class="slideproductpricegive">&#8377;140</span>
+                                <span class="slideproductpricediscount">10%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slideproduct">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/137209-4-200.jpg">
+                            <p>Bigmuscles Nutrition Premium Gold Whey Protein Isolate (1kg)</p>
+                            <h4><span class="slideproductprice">&#8377;2299</span>
+                                <span class="slideproductpricegive">&#8377;1299</span>
+                                <span class="slideproductpricediscount">43%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/137219-1-400.jpg">
+                            <p>Bigmuscles Nutrition Freak A Next Level Pre-Workout (180g)</p>
+                            <h4><span class="slideproductprice">&#8377;1199</span>
+                                <span class="slideproductpricegive">&#8377;1079</span>
+                                <span class="slideproductpricediscount">10%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/137211-1-400.jpg">
+                            <p>Bigmuscles Nutrition Premium Gold Whey Protein</p>
+                            <h4><span class="slideproductprice">&#8377;4099</span>
+                                <span class="slideproductpricegive">&#8377;3077</span>
+                                <span class="slideproductpricediscount">25%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/137220-1-400.jpg">
+                            <p>Bigmuscles Nutrition Freak A Next Level Pre-Workout</p>
+                            <h4><span class="slideproductprice">&#8377;1199</span>
+                                <span class="slideproductpricegive">&#8377;1000</span>
+                                <span class="slideproductpricediscount">20%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/137231-1-200.jpg">
+                            <p>Bigmuscles Nutrition The Real Advanced (60tab)</p>
+                            <h4><span class="slideproductprice">&#8377;599</span>
+                                <span class="slideproductpricegive">&#8377;365</span>
+                                <span class="slideproductpricediscount">25%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slideproduct">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/131620-1-200.jpg">
+                            <p>Yugantar Gond (Gum) (200g)</p>
+                            <h4><span class="slideproductprice">&#8377;270</span>
+                                <span class="slideproductpricegive">&#8377;170</span>
+                                <span class="slideproductpricediscount">35%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/131641-1-400.jpg">
+                            <p>Yugantar Rock Sugar (Dhaga Mishri) (400g) </p>
+                            <h4><span class="slideproductprice">&#8377;260</span>
+                                <span class="slideproductpricegive">&#8377;160</span>
+                                <span class="slideproductpricediscount">35%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/106992-4-400.jpg">
+                            <p>Yugantar Irani Methi Seeds (400g)</p>
+                            <h4><span class="slideproductprice">&#8377;600</span>
+                                <span class="slideproductpricegive">&#8377;515</span>
+                                <span class="slideproductpricediscount">15%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/137478-1-400.jpg">
+                            <p>Yugantar Poppy Seeds (Khaskhas) (200g)</p>
+                            <h4><span class="slideproductprice">&#8377;890</span>
+                                <span class="slideproductpricegive">&#8377;790</span>
+                                <span class="slideproductpricediscount">11%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/128747-1-400.jpg">
+                            <p>Yugantar Anjeer Premium Quality Dried Figs (100g)</p>
+                            <h4><span class="slideproductprice">&#8377;333</span>
+                                <span class="slideproductpricegive">&#8377;145</span>
+                                <span class="slideproductpricediscount">45%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- STARTS SLIDING FOR BUEATY AND CARE PRODUCT -->
+
+        <div class="slideviewCARE">
+            <div class="slideviewallCARE">
+                <img src="https://static.oxinis.com/healthmug/image/category/82.png">
+                <h1>Beauty & Personal Care</h1>
+                <button onclick="window.location.assign('/personal care/personalcare.html')">View All</button>
+            </div>
+
+            <div class="slideshow-containerCARE">
+                <div class="mySlidesCARE fadeCARE">
+                    <div class="slideproductCARE">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/586-2-400.jpg">
+                            <p>SBL Berberis Aquifolium Gel (25g)</p>
+                            <h4><span class="slideproductpriceCARE">&#8377;65</span>
+                                <span class="slideproductpricegiveCARE">&#8377;53</span>
+                                <span class="slideproductpricediscountCARE">16%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/17854-2-400.jpg">
+                            <p>SBL Arnica Montana Herbal Shampoo With Conditioner (200ml)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;149</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/484-1-400.jpg">
+                            <p>SBL Glowing Beauty Fairness Cream (50g)</p>
+                            <h4><span class="slideproductpriceCARE">&#8377;100</span>
+                                <span class="slideproductpricegiveCARE">&#8377;87</span>
+                                <span class="slideproductpricediscountCARE">13%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/477-2-400.jpg">
+                            <p>SBL Arnica Montana Hair Oil (200ml)</p>
+                            <h4><span class="slideproductpriceCARE">&#8377;150</span>
+                                <span class="slideproductpricegiveCARE">&#8377;132</span>
+                                <span class="slideproductpricediscountCARE">11%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/479-2-400.jpg">
+                            <p>SBL Arnica Montana Shampoo (200ml)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;220</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesCARE fadeCARE">
+                    <div class="slideproductCARE">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/2978-1-400.jpg">
+                            <p>Bakson Sunny Hair Color (Black) (20g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;45</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/65707-2-400.jpg">
+                            <p>Bakson Sunny All Purpose Aloe Vera Calendula Cream (30g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;40</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/2958-1-400.jpg">
+                            <p>Bakson Sunny Cocoa Butter Cream (125g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;229</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/2960-1-400.jpg">
+                            <p>Bakson Sunny Derm Aid Soap (75g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;50</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/3097-2-400.jpg">
+                            <p>Bakson S Cure Cream (30g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;85</span>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlidesCARE fadeCARE">
+                    <div class="slideproductCARE">
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5400-1-400.jpg">
+                            <p>Wheezal Jaborandi Hair Treatment Oil (110ml)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;131</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5402-2-400.jpg">
+                            <p>Wheezal Hekla Lava Dental Cream (Tooth Paste) (100g) </p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;73</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/11538-2-400.jpg">
+                            <p>Wheezal Hekla Lava Dental Gel (100g)</p>
+                            <h4>
+                                <span class="slideproductpricegiveCARE">&#8377;78</span>
+
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/7359-2-400.jpg">
+                            <p>Wheezal Arnica Hair and Scalp Shampoo (500ml)</p>
+                            <h4><span class="slideproductpriceCARE">&#8377;120</span>
+                                <span class="slideproductpricegiveCARE">&#8377;108</span>
+                                <span class="slideproductpricediscountCARE">6%</span>
+                            </h4>
+                        </div>
+                        <div>
+                            <img src="https://static.oxinis.com/healthmug/image/product/5401-2-400.jpg">
+                            <p>Wheezal Hekla Lava Tooth Powder (100g)</p>
+                            <h4><span class="slideproductpriceCARE">&#8377;400</span>
+                                <span class="slideproductpricegiveCARE">&#8377;369</span>
+                                <span class="slideproductpricediscountCARE">8%</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prevCARE" onclick="plusSlidesCARE(-1)">&#10094;</a>
+                <a class="nextCARE" onclick="plusSlidesCARE(1)">&#10095;</a>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+
+
+
+
+<!-- ==================================================================================================================== -->
+
+        <!-- THIS IS FOR BLOGS AND CONSULTANCY -->
+        <!-- MADE BY DINESH -->
+<div id="blogscon">
+        <div id="dineshbhau">
+            <div class="offerContainer">
+                <div id="offerBox1">
+                    <img class="offerImages" src="https://static.oxinis.com/healthmug/image/asset/15-ad.png" alt="" />
+                </div>
+                <div id="offerBox2">
+                    <img class="offerImages" src="https://static.oxinis.com/healthmug/image/asset/16-ad.png" alt="" />
+                </div>
+                <div id="offerBox3">
+                    <img class="offerImages" src="https://static.oxinis.com/healthmug/image/asset/22-eb.png" alt="" />
+                </div>
+            </div>
+            <p id="startConsult">START CONSULTATION</p>
+            <div class="offerContainer2">
+                <div class="innerBox">
+                    <div>
+                        <img id="consultImages"
+                            src="https://static.oxinis.com/healthmug/image/consultation/homeopathy-icon.jpg" alt="" />
+                    </div>
+                    <div>
+                        <p id="consultType">Homeopathy</p>
+                        <p id="typeTagline">Free Homeopathy Consultation Online</p>
+                        <button id="askbutton">Ask our Expert</button>
+                    </div>
+                </div>
+
+                <div class="innerBox">
+                    <img id="consultImages"
+                        src="https://static.oxinis.com/healthmug/image/consultation/ayurveda-icon.jpg" alt="" />
+                    <div>
+                        <p id="consultType">Unani</p>
+                        <p id="typeTagline">Free Homeopathy Consultation Online</p>
+                        <button id="askbutton">Ask our Expert</button>
+                    </div>
+                </div>
+
+                <div class="innerBox">
+                    <img id="consultImages"
+                        src="https://static.oxinis.com/healthmug/image/consultation/diet-nutrition-icon.jpg" alt="" />
+                    <div>
+                        <p id="consultType">Ayurveda</p>
+                        <p id="typeTagline">Free Homeopathy Consultation Online</p>
+                        <button id="askbutton">Ask our Expert</button>
+                    </div>
+                </div>
+
+                <div class="innerBox">
+                    <img id="consultImages" src="https://static.oxinis.com/healthmug/image/consultation/unani-icon.jpg"
+                        alt="" />
+                    <div>
+                        <p id="consultType">Diet/Nutrition</p>
+                        <p id="typeTagline">Free Homeopathy Consultation Online</p>
+                        <button id="askbutton">Ask our Expert</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Blog-->
+            <p id="blog">Blogs</p>
+            <div class="blogContainer">
+                <div class="innerContainer">
+                    <div class="appleImage">
+                        <img id="imageBox"
+                            src="https://static.oxinis.com/healthmug/image/blog/article/205-banner-600.jpg" alt="" />
+                        <p>
+                            Mirror, Mirror On The Wall- If They Laugh Then Screw Them ALL!!!!
+                        </p>
+                        <p>
+                            A Fresh, Organic apple or the witch poisoned apple that Snow White
+                            had for a snack? Which would you prefer? Obviously, the fresh one
+                            right? So, why doesn't the same happens when it comes to your
+                            health! Didn't catch up? Read on to find out.
+                        </p>
+                    </div>
+                    <div class="blogTopics">
+                        <div class="blogContent">
+                            <div class="final">
+                                <img id="blogsImage"
+                                    src="https://static.oxinis.com/healthmug/image/blog/article/202-banner-400.jpg"
+                                    alt="" />
+                                <p>
+                                    Korean Beauty Regimen 101 - Everything you need to know about
+                                    Korean Skincare
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blogContent">
+                            <div class="final">
+                                <img id="blogsImage"
+                                    src="https://static.oxinis.com/healthmug/image/blog/article/3-banner-400.jpg"
+                                    alt="" />
+                                <p>Fruit & Vegetable Juices You Need To Know About</p>
+                            </div>
+                        </div>
+                        <div class="blogContent">
+                            <div class="final">
+                                <img id="blogsImage"
+                                    src="https://static.oxinis.com/healthmug/image/blog/article/4-banner-400.jpg"
+                                    alt="" />
+                                <p>7 Herbal Teas & Benefits That Will Blow Your Mind</p>
+                            </div>
+                        </div>
+                        <div class="blogContent">
+                            <div class="final">
+                                <img id="blogsImage"
+                                    src="https://static.oxinis.com/healthmug/image/blog/article/2-banner-400.jpg"
+                                    alt="" />
+                                <p>6 Essential Oils You Need To Keep At Home</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+<!-- ============================================================================================ -->
+  <!-- Footer Made by Dinesh -->
+  <div id="footerpagepart">
+    <!-- stickkers images -->
+    <div class = "services">
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/2438/2438078.png" alt="">
+            <h4>100% SECURE</h4>
+            <p>100% Payment Protection</p>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/4766/4766874.png" alt="">
+            <h4>CASH ON DELIVERY</h4>
+            <p>Get First Pay Later</p>
+        </div>
+        <div>
+            <img src="re.png" alt="">
+            <h4>EASY RETURNS</h4>
+            <p>Easy Returns & Refund</p>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/4923/4923155.png" alt="">
+            <h4>HELP CENTER</h4>
+            <p>Call:9876543210 Or Read <a href="#">FAQs</a></p>
+        </div>
+    </div>
+    <!-- policies wala box -->
+<div class="maxContainerFooter">
+    <div class="footerMainContainer">
+    
+        <div class="footerColoumn">
+            <h4>Policies</h4>
+            <p>Privacy Policy</p> 
+            <p>Term Of Use</p>
+            <p>Returns and Cancellations</p>
+        </div>
+        <div class="footerColoumn">
+            <h4>Healthmug</h4>
+            <p>Contact Us</p>
+            <p>About Us</p>
+            <p>Blogs</p>
+        </div>
+        <div class="footerColoumn">
+            <h4>May we help you</h4>
+            <p>Track Your Order</p>
+            <p>Change/Cancel Your Order</p>
+            <p>Report Abuse/Infrigement</p>
+            <p>FAQ</p>
+        </div>
+        <div class="footerColoumn">
+            <h4>Stay Connected</h4>
+            <i class="fab fa-facebook-f"></i>
+            <span>Facebook</span>
+            <br>
+            <i class="fab fa-twitter"></i>
+            <span>Tweeter</span>
+            
+        </div>
+        <div class="footerColoumn">
+            <h4>Payment Methods</h4>
+            <i class="fas fa-credit-card"></i>
+            <span>Credit Cards</span><br>
+            <i class="fas fa-tv"></i>
+            <span>Net Banking</span> <br>
+            <i class="far fa-money-bill-alt"></i>
+            <span>COD</span> <br>
+            <i class="fas fa-wallet"></i>
+            <span>E-Wallet</span>
+        </div>	
+    <div class="footerColoumn">
+        <h4>Download App</h4>
+        <img src="https://static.oxinis.com/healthmug/image/healthmug/google-play.png" alt="">
+        
+    </div>					
+</div>
+<div class="lastLine">
+    <div>
+        <img src="https://cdn-icons-png.flaticon.com/128/2438/2438078.png" alt="">
+        
+    </div>
+    <div class="textBox">
+        <p id="boldText">100% Secured & Trusted</p>
+        <p>Secured Payments By Razorpay</p>
+    </div>
+</div>
+</div>
+<footer>
+<div class="prodTypes">
+<div class="linkContainer">
+    <a id = "typeName" href="#">Homeopathy :</a>  <span><a href="">Dr.Reckeweg /</a></span>
+    <span><a href=""> Dr. Willmar Schwabe / </a></span>
+    <span><a href="">Adel Pekana / </a></span>
+    <span><a href=""> SBL / </a></span>
+    <span><a href=""> Bakson’s / </a></span>
+    <span><a href="">Wheezal / </a></span>
+    <span><a href=""> Allen / </a></span>
+    <span><a href="">New Life / </a></span>
+    <span><a href="">R S Bhargava / </a></span>
+    <span><a href=""> Bhandari / </a></span>
+    <span><a href="">Hapdco /</a></span>
+    <span><a href=""> Medisynth / </a></span>
+    <span><a href=""> Allen / </a></span>
+    <span><a href="">B.Jain / </a></span>
+    <span><a href="">Bioforce / </a></span>
+    <span><a href="">Bios / </a></span>
+    <span><a href="">Lab / </a></span>
+    <span><a href=""> HL / </a></span>
+    <span><a href="">Haslab / </a></span>
+    <span><a href="">Lords / </a></span>
+    <span><a href=""> Jhactions / </a></span>
+    <span><a href=""> Indo German / </a>
+    </span><span><a href=""> REPL / </a></span>
+    <span><a href=""> Ralson</a></span><span>
+    <br>
+<!--Homeopathic Delusions-->       
+    <a id = "typeName" href="">Homeopathic Dilutions :</a>
+    <span><a href="#">Allium Cepa / </a></span>
+    <span><a href="#">Alumina / </a></span>
+    <span><a href="#">Antim Crud / </a></span>
+    <span><a href="#">Apis Mel / </a></span>
+    <span><a href="#"> Arnica / </a></span>
+    <span><a href="#"> Arsenic Album / </a></span>
+    <span><a href="#"> Baryta Carb /  </a></span>
+    <span><a href="#">  Belladonna / </a></span>
+    <span><a href="#"> Bryonia / </a></span>
+    <span><a href="#"> Calcarea Carb / </a></span>
+    <span><a href="#"> Carvo Veg / </a></span>
+    <span><a href="#">Causticum / </a></span>
+    <span><a href="#"> Cina / </a></span>
+    <span><a href="#"> China / </a></span>
+    <span><a href="#"> Colocynthis / </a></span>
+    <span><a href="#"> Conium / </a></span>
+    <span><a href="#"> Merc sol / </a></span>
+    <span><a href="#"> Eupatorium Perf / </a></span>
+    <span><a href="#">Gelsemium / </a></span>
+    <span><a href="#"> Graphites / </a></span>
+    <span><a href="#">Hepar Sulph / </a></span>
+    <span><a href="#"> Ignatia / </a></span>
+    <span><a href="#">  Ipecac / </a></span>
+    <span><a href="#"> Kali Bichrom / </a></span>
+    <span><a href="#"> Ledum Pal / </a></span>
+    <span><a href="#"> Lycopodium / </a></span> 
+    <span><a href="#"> Merc sol / </a></span>
+    <span><a href="#"> Nitric Acid / </a></span>
+    <span><a href="#">Nux Vomica / </a></span>
+    <span><a href="#">  Ocimum Can / </a></span>
+    <span><a href="#"> Phosphoric Acid / </a></span>
+    <span><a href="#"> Phosphorus / </a></span>
+    <span><a href="#"> Sulphur / </a></span>
+    <span><a href="#">Petroleum / </a></span>
+    <span><a href="#"> Pulsatilla /</a></span>
+    <span><a href="#">Rhus tox / </a></span>
+    <span><a href="#"> Ruta / </a></span>
+    <span><a href="#"> Sepia / </a></span>
+    <span><a href="#"> Thuja</a></span>
+    <br>
+<!--Homeopathic-->      
+    <a id = "typeName" href="#"> Homeopathic Mother Tinctures :</a>
+    <span><a href="#">  Aesculus / </a></span>
+    <span><a href="#"> Agnus Castus / </a></span>
+    <span><a href="#">  Alfalfa / </a></span>
+    <span><a href="#">  Aspidosperma / </a></span>
+    <span><a href="#"> Avena Sativa / </a></span>
+    <span><a href="#"> Berberis Vulgaris / </a></span>
+    <span><a href="#">  Blatta / </a></span>
+    <span><a href="#">  Calendula / </a></span>
+    <span><a href="#">Cantharis / </a></span>
+    <span><a href="#">Carduus Marianus / </a></span>
+    <span><a href="#">Chelidonium / </a></span>
+    <span><a href="#"> Chimaphilla / </a> </span>
+    <span><a href="#"> Crateagus / </a></span>
+    <span><a href="#"> Damina /</a></span>
+    <span><a href="#">   Drosera / </a></span>
+    <span><a href="#">Echinacea / </a></span>
+    <span><a href="#"> Euphrasia /</a></span>
+    <span><a href="#"> Ginseng / </a></span>
+    <span><a href="#">  Hamamelis / </a></span>
+    <span><a href="#">  Hydrastis /</a></span>
+    <span><a href="#"> Justicea /</a></span>
+    <span><a href="#"> Kalmegh / </a></span>
+    <span><a href="#">Kreosote / </a></span>
+    <span><a href="#">Lemna Minor / </a></span>
+    <span><a href="#"> Millefolium / </a></span>
+    <span><a href="#">Phytolacca / </a></span>
+    <span><a href="#"> Plantago / </a></span>
+    <span><a href="#"> Sabadilla / </a></span>
+    <span><a href="#"> Sabal Serrulata / </a></span>
+    <span><a href="#"> Senega / </a></span>
+    <span><a href="#">  Spongia /</a></span>
+    <span><a href="#">   Symphytum / </a></span>
+    <span><a href="#">  Teucrium Marum Verum / </a></span>
+    <span><a href="#">Thlaspi Bursa Pestoris / </a></span>
+    <span><a href="#"> Uva Ursi </a></span>
+    <br>
+<!--Bio Chemic-->
+    <a id="typeName" href="#"> Bio-Chemic : </a>
+    <span><a href="#"> Calcarea Flour / </a></span>
+    <span><a href="#">Calcarea Phos / </a></span>
+    <span><a href="#">Calcarea Sulph / </a></span>
+    <span><a href="#">Ferrum Phos / </a></span>
+    <span><a href="#"> Kali Mur / </a></span>
+    <span><a href="#">Kali Phos / </a></span>
+    <span><a href="#"> Kali Sulph / </a></span>
+    <span><a href="#"> Mag Phos / </a></span>
+    <span><a href="#"> Nat Mur / </a></span>
+    <span><a href="#"> Nat Phos / </a></span>
+    <span><a href="#">Nat Sulph /</a></span>
+    <span><a href="#">   Silicea </a></span>
+    <br>
+<!--Ayurveda & Unani-->
+    <a id="typeName" href="#">Ayurveda and Unani : </a>
+    <span><a href="#"> Patanjali / </a></span> 
+    <span><a href="#">Baidyanath / </a></span> 
+    <span><a href="#"> Dabur / </a></span>
+    <span><a href="#"> Dhootapapeshwar / </a></span> 
+    <span><a href="#"> Himalaya / </a></span> 
+    <span><a href="#">Charak/</a></span>
+        <span><a href="#"> Zandu / </a></span>
+    <span><a href="#">  Aimil / </a></span> 
+    <span><a href="#"> Vyas / </a></span> 
+    <span><a href="#">Organic India / </a></span>
+    <span><a href="#">   Alarsin / </a></span> 
+    <span><a href="#"> Dhootapapeshwar / </a></span> 
+    <span><a href="#">  Hamdard / </a></span>
+    <span><a href="#"> Gurukul / </a></span> 
+    <span><a href="#">Maharishi Ayurved / </a></span> 
+    <span><a href="#"> Multani / </a></span>
+    <span><a href="#"> Nagarjuna / </a></span>
+    <span><a href="#"> Unjha / </a></span> 
+    <span><a href="#">Aroma Magic / </a></span>
+    <span><a href="#">Basic Ayurveda / </a></span> 
+    <span><a href="#">Vicco </a></span>
+    <br>
+<!--Ayurveda & Unani-->
+    <a id="typeName" href="#">Ayurvedic Medicines : </a>
+    <span><a href="#"> Ras and Sindoor / </a></span>
+    <span><a href="#">Bati,Gutika and Guggulu / </a></span>
+    <span><a href="#"> Asava Arishta and Kadha / </a></span>
+    <span><a href="#"> Loha and Mandur / </a></span>
+    <span><a href="#">Churan, Avleha and Pak / </a></span>
+    <span><a href="#">Tailam and Ghrita/ </a></span>
+    <span><a href="#"> Chyawanprash /</a></span>
+    <span><a href="#"> Honey /</a></span>
+    <span><a href="#">  Digestives / </a></span>
+    <span><a href="#"> Green Tea </a></span>
+    <br>
+<!--Herbal and Vegatables Juice-->   
+    <a id="typeName" href="#"> Herbal and Vegetable Juice :</a>
+    <span><a href="#"> AloeVera Juice / </a></span>
+    <span><a href="#">Amla Juice / </a></span>
+    <span><a href="#">Apple Cider Vinegar /  </a></span>
+    <span><a href="#">Lauki Juice / </a></span>
+    <span><a href="#">Jamun Juice / </a></span>
+    <span><a href="#"> Karela (Bitter Guard) Juice / </a></span>
+    <span><a href="#">  Triphala Juice / </a></span>
+    <span><a href="#"> Panch Tulsi Juice / </a></span>
+    <span><a href="#"> Grass Meal Juice / </a></span>
+    <span><a href="#"> Neem Leaf Juice / </a></span>
+    <span><a href="#"> Brahmi Juice / </a></span>
+    <span><a href="#">  Giloy Juice / </a></span>
+    <span><a href="#">     Noni Juice</a></span>
+    <br>
+<!--Aroma Oils-->
+    <a id="typeName" href="#">Aroma Oils (Essential Oils) : </a>
+    <span><a href="#">  Beautiful Skin Oil / </a></span> 
+    <span><a href="#">  Fairy Oil / </a></span>
+    <span><a href="#">Stimulate Oil / </a></span>
+    <span><a href="#"> Dry Skin Oil / </a></span> 
+    <span><a href="#">  Tea Tree Oil / </a></span>
+    <span><a href="#"> Jasmine Oil / </a></span>
+    <span><a href="#">Sandalwood Oil / </a></span> 
+    <span><a href="#">Patchouli Oil / </a></span>
+    <span><a href="#">Patchouli Oil/ </a></span>
+    <span><a href="#">Fennel Seed Oil / </a></span>
+    <span><a href="#"> Petitgrain Oil / </a></span>
+    <span><a href="#"> Cedarwood Oil / </a></span>
+    <span><a href="#"> Cinnamom Oil / </a></span>
+    <span><a href="#">Oily Skin Oil / </a></span> 
+    <span><a href="#">  Vertiver Oil / </a></span>
+    <span><a href="#">  Cypress Oil / </a></span> 
+    <span><a href="#">  Rose Oil / </a></span> 
+    <span><a href="#">  Rosemary Oil /</a></span>
+    <span><a href="#"> Frankincense Oil / </a></span> 
+    <span><a href="#">  Ginger Oil / </a></span> 
+    <span><a href="#">  Geranium Oil / </a></span>
+    <span><a href="#">Flaky Oil / </a></span>
+    <span><a href="#">Ylang Ylang Oil / </a></span> 
+    <span><a href="#"> Peppermint Oil / </a></span>
+    <span><a href="#">Juniper Berry Oil / </a></span> 
+    <span><a href="#"> Clarysage Oil / </a></span>
+    <span><a href="#">Dreams Oil / </a></span>
+    <span><a href="#">Bergamot Oil / </a></span> 
+    <span><a href="#"> Lemongrass Oil / </a></span> 
+    <span><a href="#"> Sensitive Skin Oil / </a></span>
+    <span><a href="#">Carrot Seed Oil / </a></span> 
+    <span><a href="#"> Peace Oil /</a></span>
+    <span><a href="#"> Peace Oil /</a></span>
+    <span><a href="#">Rosewood Oil / </a></span>
+    <span><a href="#">   Basil Oil / </a></span> 
+    <span><a href="#">  Lavender Oil / </a></span> 
+    <span><a href="#"> Pine Oil / </a></span> 
+    <span><a href="#"> Happiness Oil / </a></span>
+    <span><a href="#">  Palmarosa Oil / </a></span> 
+    <span><a href="#">   Lemon Oil / </a></span> 
+    <span><a href="#"> Thyme Oil/ </a></span>
+    <span><a href="#"> Morning Due Oil / </a></span> 
+    <span><a href="#">  Nutmeg Oil </a></span> 
+    <br>
+<!--Beauty and Personal Care-->
+    <a id ="typeName" href="#">Beauty and Personal Care :</a>
+    <span><a href="#">  Natural and Organic Cosmetics /</a></span>
+    <span><a href="#">  Creams / </a></span>
+    <span><a href="#">Shampoo / </a></span>
+    <span><a href="#">  Hair Oils / </a></span>
+    <span><a href="#">Mehandi / </a></span>
+    <span><a href="#">Hair Color / </a></span>
+    <span><a href="#"> Talcs / </a></span>
+    <span><a href="#"> Soaps/ </a></span>
+    <span><a href="#">Tooth Paste and Mouth Wash </a></span>
+    <br>
+<!--About-->
+    <p id = "about">About Healthmug</p>
+    <p id = "aboutSection">
+        With a vision of bridging the gap between a pharmacy and the consumers, 
+        Healthmug came into its existence in 2016. A vision that quickly 
+        broadened up and helped it in becoming more than just a mere online portal, 
+        to an online marketplace for shopping Ayurvedic to Homeopathy to Unani 
+        medicines to Health Supplements and much more. Since its inception, 
+        Healthmug has grown into a world-class e-platform for everything 
+        related to health & fitness. What draws a major distinction between
+            us and our contemporaries is the way we promote a harmonious relationship
+            between the sellers and the buyers for the greater good. <br> <br>
+
+        Healthmug is the brainchild of Dr. Mohit Agarwal & Mr. Anubhav Bansal.
+        They started this online platform with an idea of supporting the local
+        manufacturers & sellers through building a platform for Ayurvedic, 
+        Homeopathy & Unani medicines and to improve the health of the 
+        consumers in a holistic way. With an ever-expanding range of products
+        and services, Healthmug is growing rapidly and seeks to become a one-stop 
+        portal for all healthcare needs. <br><br>
+
+        While Healthmug brings medicines at your fingertips
+        and at affordable prices, it also makes shopping online an easy task.
+        Not just for the consumers, even for the sellers & the brands, this platform 
+        makes selling products easy and hassle-free. Since day one, we have supported 
+        many small & medium local brands to sell their products and have helped them 
+        in sharpening their entrepreneurial skills. Along with these, we have also given 
+        numerous big brands a platform to expand their customer base. We believe in the 
+        philosophy of growing together and thus we motivate the sellers to do their best. 
+        All thanks to our comprehendible policies, everyone from a small seller to a wholesaler 
+        to a brand, can easily connect with us and sell their products. <br><br>
+
+        Shop for medicines, wellness products, and health supplements online from top brands 
+        like Dr. Reckeweg, Dr. Willmar Schwabe, Adel Pekana, SBL, Haslab, Bakson etc. Customers 
+        can shop from a wide range of Ayurvedic products available online like Bhasma & Pishti, 
+        Bati, Gutika & Guggulu Ras, Sindoor, Asava Arishtha etc. at attractive prices. For organic food items, 
+        Herbal Juices, Green Teas, etc. from popular brands like Dabur, Baidyanath, Zandu, Himalaya,
+        Organic India, Unjha, Basic Ayurveda and counting, customers can shop online and buy these products
+        at attractive prices and offers. Customers can now enjoy the benefit of shopping online for 
+        Allopathic medicines and getting them delivered right at their doorsteps. 
+        Shop from our online pharmacy for Allopathic medicines and drugs at great prices. 
+        Shop online from the widest range of products listed across on our website, 
+        across a wide range of categories and give yourself and your loved ones a gift of wellbeing. 
+        Come, join us and start living a healthy life and be a part of the Healthmug family.
+
+
+    </p>
+</div>
+<div class = "copyRight">
+    <p>
+        Copyright© 2019. All rights reserved.
+    </p>
+    <p>
+        In compliance with Drug and Cosmetic Act and Rules, 
+        we dont sell schedule H, H1, X or any habit forming drugs.
+    </p>
+    <p>
+    <font size="+2">Healthmug.</font> <font size="-1">com</font>
+    </p>
+</div>
+</div>
+</footer>
+</div> 
+<!-- ======================================================================================================================== -->
+<!-- THIS IS SINGIN AND SING UP PART-->
+<div id="singinpart">
+    <div id="sign_in_nav">
+        
+
+        
+            <!-- onclick="document.getElementById('modal-wrapper').style.display='block' -->
+
+        <div id="modal-wrapper" class="modal">
+            <form class="modal-content animate" id="login_form">
+
+                <div class="imgcontanier">
+                    <span onclick="sign_in()" class="close" title="Close PopUp">&times;</span>
+                </div>
+
+                <!-- <div class="container"> -->
+                <div id="mainsignuppop">
+                    <div id="hoversignup1">
+                        <div class="hoversigntext">
+                            <h2>Sign In / Sign Up</h2>
+                            <p>Sign to access your Orders,Wishlist,Medicine and Offers</p>
+                        </div>
+                        <div class="hoversignupimg">
+                            <img src="https://static.oxinis.com/healthmug/image/healthmug/login-info-img.png">
+                        </div>
+                    </div>
+                    <div id="hoversignup2">
+                        <input id="hoversignupinput" type="text" placeholder="Enter Email/Mobile">
+
+                        <button type="submit" id="hoversignupbtn">Continue</button>
+                        <p id="signupterms">By Continuing , you agress to our<span class="signupcond"><u>Terms and
+                                    condition</u></span></p>
+                    </div>
+
+                    <div id="login_password" style="display: none;">
+                        <input id="login_password_input" type="password" placeholder="Enter Password">
+                        <button id="login_password_submit">submit</button>;
+                    </div>
+                    <!-- </div> -->
+
+            </form>
+        </div>
+    </div>
+
+    <div id="sign_up_nav">        
+
+       
+        <div id="modal-wrapper1" class="modal">
+            <form class="modal-content animate">
+                <div class="imgcontanier">
+                    <span onclick="document.getElementById('modal-wrapper1').style.display='none'" class="close"
+                        title="Close PopUp">&times;</span>
+
+                </div>
+
+                <!-- <div class="container"> -->
+                <div id="maindiv">
+                    <div id="topcontentbox">
+                        <div class="content">
+                            <h2>Sign Up</h2>
+                            <p>Fill your basic details</p>
+                        </div>
+                        <div class="contentboximg">
+                            <img class="contentboximg"
+                                src="https://static.oxinis.com/healthmug/image/healthmug/login-info-img.png">
+                        </div>
+                    </div>
+                    <form id="sign_up_form">
+                        <div id="inputbox">
+                            <input id="signup_mobile" class="inputtaking" type="text"
+                                placeholder="+91  Enter Mobile No.">
+                            <input id="signup_email" class="inputtaking" type="text" placeholder="Enter Email">
+                            <input id="signup_password" class="inputtaking" type="password"
+                                placeholder="Enter Password">
+                            <!-- <p>Password should have a minimum of 6 characters</p> -->
+                            <input class="inputtaking" type="password" placeholder="Confirm Password">
+                            <button id="sign_up_form" type="submit" class="btn1">Continue</button>
+                            <!-- <button id="backtologin" onclick="">Back to signup</button> -->
+                            <p class="backtologin"><a href="homepage.html">Back to Login</a></p>
+                        </div>
+
+                    </form>
+
+                </div>
+                <!-- </div> -->
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
+
+
+<script src="homepage.js"></script>
