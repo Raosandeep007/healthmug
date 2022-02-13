@@ -874,7 +874,7 @@
   }
 
   function healthmug_home() {
-    window.location.assign("/homepage/homepage.html");
+    window.location.assign("/homepage/index.html");
   }
 
   //popup new window
@@ -917,84 +917,82 @@
 }
 
 // ===========================================================================================================
-// THIS IS SING IN NAD SING UP FUCTIONS 
+// THIS IS SING IN NAD SING UP FUCTIONS
 //MADE BY  ADITYA
 {
   document.getElementById("login_form").addEventListener("submit", signsuccess);
-      document.getElementById("sign_up_form").addEventListener("click", signUp);
-  
-      var usersignup = JSON.parse(localStorage.getItem("user_credentials")) || []
-  
-      function signsuccess(e) {
-          e.preventDefault();
-          var flag = false;
-          var email = document.getElementById("hoversignupinput").value;
-          console.log(usersignup);
-  
-  
-          for (var i = 0; i < usersignup.length; i++) {
-              if (usersignup[i].email !== email)
-                  flag = false;
-              else {
-                  flag = true;
-                  break;
-              }
-          }
-          if (flag && usersignup.length > 0) {
-              console.log(i);
-              document.getElementById("login_password_submit").addEventListener("click", function () {
-                  password(i);
-              });
-              document.getElementById("login_password").style.display = "block";
-          }
-          else {
-              console.log("pokeymon");
-              document.getElementById("modal-wrapper1").style.display = "block";
-          }
-  
-      }
-  
-      function password(i) {
-          if (document.getElementById("login_password_input").value == usersignup[i].password)
-              alert("login successful");
-          else {
-              alert("login failed!");
-  
-              sign_in();
-  
-          }
-      }
-  
-  
-      function signUp(e) {
-          e.preventDefault();
-          console.log("here")
-          var email = document.getElementById("signup_email").value;
-          var password = document.getElementById("signup_password").value;
-          var mobile = document.getElementById("signup_mobile").value;
-          console.log(email, password, mobile);
-  
-          var data = {
-              email: email,
-              password: password,
-              mobile: mobile
-          }
-  
-          usersignup.push(data);
-          console.log(usersignup);
-          localStorage.setItem("user_credentials", JSON.stringify(usersignup));
-          console.log("sai");
-          sign_up_close();
-  
-      }
-  
-      function sign_in() {
-          document.getElementById('modal-wrapper').style.display = 'none';
-      }
-      function sign_up() {
-          document.getElementById("modal-wrapper1").style.display = "block";
-      }
-      function sign_up_close() {
-          document.getElementById('modal-wrapper1').style.display = 'none';
+  document.getElementById("sign_up_form").addEventListener("click", signUp);
+
+  var usersignup = JSON.parse(localStorage.getItem("user_credentials")) || [];
+
+  function signsuccess(e) {
+    e.preventDefault();
+    var flag = false;
+    var email = document.getElementById("hoversignupinput").value;
+    console.log(usersignup);
+
+    for (var i = 0; i < usersignup.length; i++) {
+      if (usersignup[i].email !== email) flag = false;
+      else {
+        flag = true;
+        break;
       }
     }
+    if (flag && usersignup.length > 0) {
+      console.log(i);
+      document
+        .getElementById("login_password_submit")
+        .addEventListener("click", function () {
+          password(i);
+        });
+      document.getElementById("login_password").style.display = "block";
+    } else {
+      console.log("pokeymon");
+      document.getElementById("modal-wrapper1").style.display = "block";
+    }
+  }
+
+  function password(i) {
+    if (
+      document.getElementById("login_password_input").value ==
+      usersignup[i].password
+    )
+      alert("login successful");
+    else {
+      alert("login failed!");
+
+      sign_in();
+    }
+  }
+
+  function signUp(e) {
+    e.preventDefault();
+    console.log("here");
+    var email = document.getElementById("signup_email").value;
+    var password = document.getElementById("signup_password").value;
+    var mobile = document.getElementById("signup_mobile").value;
+    console.log(email, password, mobile);
+
+    var data = {
+      email: email,
+      password: password,
+      mobile: mobile,
+    };
+
+    usersignup.push(data);
+    console.log(usersignup);
+    localStorage.setItem("user_credentials", JSON.stringify(usersignup));
+    console.log("sai");
+    sign_up_close();
+  }
+
+  function sign_in() {
+    document.getElementById("modal-wrapper").style.display = "none";
+  }
+  function sign_up() {
+    document.getElementById("modal-wrapper1").style.display = "block";
+  }
+  function sign_up_close() {
+    document.getElementById("modal-wrapper1").style.display = "none";
+  }
+}
