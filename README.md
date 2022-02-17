@@ -1,4 +1,4 @@
-<h1>HealthMug -Clone Project</h1>
+<h1> <a href="https://healthmug.vercel.app/" target="_blank">HealthMug-Clone Project</a></h1>
 <h2> Our team was given a task to Clone the HealthMug Website. </h2>
 <h2> Tack Stack used: </h2>
 <p> To create this project following Tech Stacks are used by our team.</p>
@@ -29,37 +29,37 @@
  <h2>Team Members and Contributors: </h2>
  <h3>Sandeep</h3>
  <ul>
- <li>Github:Raosandeep007</li>
- <li>E-mail:<a href="mailto:yadavsandeep775@gmail.com">yadavsandeep775@gmail.com</a></li>
- <li>Linkedin:<a href="https://www.linkedin.com/in/sandeep-yadav-828779149/" rel="nofollow">https://www.linkedin.com/in/sandeep-yadav-828779149/</a></li>
+ <li>Github: Raosandeep007</li>
+ <li>E-mail: <a href="mailto:yadavsandeep775@gmail.com">yadavsandeep775@gmail.com</a></li>
+ <li>Linkedin: <a href="https://www.linkedin.com/in/sandeep-yadav-828779149/" rel="nofollow">https://www.linkedin.com/in/sandeep-yadav-828779149/</a></li>
  </ul>
  <h3>Aditya Prasad</h3>
  <ul>
- <li>Github:adityaprasad03cvcmsd</li>
- <li>E-mail:<a href="mailto:adityaprasad003@gmail.com">adityaprasad003@gmail.com</a></li>
- <li>Linkedin:<a href="www.linkedin.com/in/aditya-prasad-0741441a7" rel="nofollow">www.linkedin.com/in/aditya-prasad-0741441a7</a></li>
+ <li>Github: adityaprasad03cvcmsd</li>
+ <li>E-mail: <a href="mailto:adityaprasad003@gmail.com">adityaprasad003@gmail.com</a></li>
+ <li>Linkedin: <a href="www.linkedin.com/in/aditya-prasad-0741441a7" rel="nofollow">www.linkedin.com/in/aditya-prasad-0741441a7</a></li>
  </ul>
  <h3>Saiprasad</h3>
  <ul>
- <li>Github:Raosandeep007</li>
- <li>E-mail:<a href="mailto:yadavsandeep775@gmail.com">yadavsandeep775@gmail.com</a></li>
+ <li>Github: sai12348765patil</li>
+ <li>E-mail: <a href="mailto:saiprasadkhansole@gmail.com">saiprasadkhansole@gmail.com</a></li>
  </ul>
  <h3>Dinesh</h3>
  <ul>
- <li>Github:dineshborude</li>
- <li>E-mail:<a href="mailto:borudedinesh2@gmail.com">borudedinesh2@gmail.com</a></li>
- <li>Linkedin:<a href="https://www.linkedin.com/in/dineshborude" rel="nofollow">https://www.linkedin.com/in/dineshborude</a></li>
+ <li>Github: dineshborude</li>
+ <li>E-mail: <a href="mailto:borudedinesh2@gmail.com">borudedinesh2@gmail.com</a></li>
+ <li>Linkedin: <a href="https://www.linkedin.com/in/dineshborude" rel="nofollow">https://www.linkedin.com/in/dineshborude</a></li>
  </ul>
  <h3>Sivanandam</h3>
  <ul>
- <li>Github:SivanandamG</li>
- <li>E-mail:<a href="gorantlasivanandam@gmail.com">gorantlasivanandam@gmail.com</a></li>
- <li>Linkedin:<a href="https://www.linkedin.com/in/sivanandam-gorantla-878a511b7/" rel="nofollow">https://www.linkedin.com/in/sivanandam-gorantla-878a511b7/</a></li>
+ <li>Github: SivanandamG</li>
+ <li>E-mail: <a href="gorantlasivanandam@gmail.com">gorantlasivanandam@gmail.com</a></li>
+ <li>Linkedin: <a href="https://www.linkedin.com/in/sivanandam-gorantla-878a511b7/" rel="nofollow">https://www.linkedin.com/in/sivanandam-gorantla-878a511b7/</a></li>
  </ul>
  <h3>Akshay Kumar</h3>
  <ul>
- <li>Github:Akshay-Kumar2000</li>
- <li>E-mail:<a href="mailto:kumarakshay809177@gmail.com">kumarakshay809177@gmail.com</a></li>
- <li>Linkedin:<a href="https://www.linkedin.com/in/akshay-kumar-018970189/" rel="nofollow">https://www.linkedin.com/in/akshay-kumar-018970189/</a></li>
+ <li>Github: Akshay-Kumar2000</li>
+ <li>E-mail: <a href="mailto:kumarakshay809177@gmail.com">kumarakshay809177@gmail.com</a></li>
+ <li>Linkedin: <a href="https://www.linkedin.com/in/akshay-kumar-018970189/" rel="nofollow">https://www.linkedin.com/in/akshay-kumar-018970189/</a></li>
  </ul>
  
