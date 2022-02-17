@@ -9,8 +9,7 @@
  <li>JavaScript DOM </li>
  <li> Local Storage </li>
 </ul>
- 
- <img src="https://p.kindpng.com/picc/s/78-787343_html5-css-javascript-html-css-js-icon-hd.png" alt="alt Icons" data-canonical-src="https://i.imgur.com/rh3hvxm.png" style="max-width: 100%;">
+
  
  <h2> Landing Page/HomePage: </h2>
  <img src="https://github.com/Akshay-Kumar2000/HealthMug-Clone/blob/main/screenshot%20image/Home%20Page.jpeg" alt="alt Icons" data-canonical-src="https://i.imgur.com/rh3hvxm.png" style="max-width: 100%;">
